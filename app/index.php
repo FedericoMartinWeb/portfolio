@@ -16,7 +16,7 @@
     }
 </style>
 <body>
-    <img src="Detailed-Tree-Silhouette.svg" alt="tree">
-    <h1>Hola</h1>
+    <img src="assets/images/Detailed-Tree-Silhouette.svg" alt="tree">
+    <h1>de una papi</h1>
 </body>
 </html>
