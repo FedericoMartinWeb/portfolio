@@ -3,20 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Tree</title>
+    <link rel="stylesheet" href="../app/temp/styles/styles.css">
 </head>
-<style>
-    body{
-        overflow-x: hidden;
-    }
-    img{
-        height: 100vh;
-        position: absolute;
-        right: -300px;
-        top: 0;
-    }
-</style>
 <body>
     <img src="assets/images/Detailed-Tree-Silhouette.svg" alt="tree">
     <h1>de una papi</h1>
+    <a href="" class="btn btn-danger">asdasd</a>
+    <script src="temp/scripts/app.js"></script>
 </body>
 </html>
