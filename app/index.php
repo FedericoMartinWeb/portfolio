@@ -28,7 +28,8 @@
     <!-- Start Header -->
     <header class="site-header">
        <div class="site-header__menu-icon">
-           <div class="site-header__menu-icon__middle">Menu</div>
+           <div class="site-header__menu-icon__middle"></div>
+           <span class="site-header__menu-icon__title">MENU</span>
        </div>
        
        <nav class="site-header__nav-menu">
