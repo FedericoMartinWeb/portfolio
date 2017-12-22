@@ -7,6 +7,7 @@
     <!-- Meta tags -->
     <meta name="description" content="Desarrollo profesional de sitios web, 100% adaptables a todos los dispositivos">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <!-- Styles css -->
     <link rel="stylesheet" href="../app/temp/styles/styles.css">
@@ -167,6 +168,24 @@
         </div>
     </section>
     <!-- End Portfolio -->
+    
+    <!-- Start Contact -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <form action="post" class="contact__form">
+            <input type="text" placeholder="Name" name="name">
+            <input type="text" placeholder="E-mail" name="email">
+            <input type="text" placeholder="Subject" name="subject">
+            <textarea name="messaje" placeholder="Message" id="message" cols="50" rows="2"></textarea>
+        </form>
+    </section>
+    <!-- End Contact -->
+    
+    <!-- Start Footer -->
+    <footer class="footer" id="footer">
+        <p>Copyright &copy; <?php echo DATE('Y'); ?> Federico Martín</p>
+    </footer>
+    <!-- End Footer -->
     
     <script src="temp/scripts/app.js"></script>
 </body>
