@@ -8465,3 +8465,18 @@ ul{
             display: block
     }
     }
+
+.page-section{
+    padding: 1.2rem 0;
+}
+
+@media only screen and (min-width: 768px){
+
+.page-section{
+        padding: 4.5rem 0
+}
+    }
+
+.page-section--all-h{
+        height: 100vh;
+    }

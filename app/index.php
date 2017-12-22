@@ -45,25 +45,26 @@
     <!-- End Header -->
     
     <!-- Start Home -->
-    <section class="home" id="home">
+    <section class="home page-section page-section--all-h" id="home">
         <div class="home__img">
             <img src="assets/images/Detailed-Tree-Silhouette.svg" alt="Tree Silhouette" style="display: none;">
         </div>
-        
-        <div class="home__box">
-            <div class="home__box__top">
-                <p>My name is federico</p>
+        <div class="container">
+            <div class="home__box">
+                <div class="home__box__top">
+                    <p>My name is federico</p>
+                </div>
+                <h1 class="home__box__title">I'M A WEB DEVELOPER</h1>
+                <p class="home__box__description">from Buenos Aires, Argentina. If you want to learn more about me, hit the button below</p>
+                <a href="#" class="button">SEE MORE</a>
+                <div class="home__box_bottom"></div>    
             </div>
-            <h1 class="home__box__title">I'M A WEB DEVELOPER</h1>
-            <p class="home__box__description">from Buenos Aires, Argentina. If you want to learn more about me, hit the button below</p>
-            <a href="#" class="btn">SEE MORE</a>
-            <div class="home__box_bottom"></div>    
         </div>
     </section>
     <!-- End Home -->
     
     <!-- Start About Me -->
-    <section class="about" id="about">
+    <section class="about page-section" id="about">
         <h2 class="section-title">About me</h2>
         
         <div class="about__description">
@@ -77,7 +78,7 @@
     <!-- End About Me -->
     
     <!-- Start Services -->
-    <main class="services" id="services">
+    <main class="services page-section" id="services">
         <h2 class="section-title">What can I do</h2>
         <article class="services__item">
             <span class="icon-code"></span>
@@ -100,7 +101,7 @@
     <!-- End Services -->
     
     <!-- Start Technologies -->
-        <section class="technologies" id="technologies">
+        <section class="technologies page-section" id="technologies">
             <h2 class="section-title">Technologies</h2>
             
             <div class="technologies__list">
@@ -123,7 +124,7 @@
     <!-- End Technologies -->
     
     <!-- Start Portfolio -->
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio page-section" id="portfolio">
         <h2 class="section-title">My Portfolio</h2>
         
         <div class="portfolio__categories">
@@ -171,19 +172,20 @@
     <!-- End Portfolio -->
     
     <!-- Start Contact -->
-    <section class="contact" id="contact">
+    <section class="contact page-section" id="contact">
         <h2 class="section-title">Get in Touch</h2>
         <form action="post" class="contact__form">
             <input type="text" placeholder="Name" name="name">
             <input type="text" placeholder="E-mail" name="email">
             <input type="text" placeholder="Subject" name="subject">
             <textarea name="messaje" placeholder="Message" id="message" cols="50" rows="2"></textarea>
+            <input type="submit" value="SEND" class="button">
         </form>
     </section>
     <!-- End Contact -->
     
     <!-- Start Footer -->
-    <footer class="footer" id="footer">
+    <footer class="footer page-section" id="footer">
         <p>Copyright &copy; <?php echo DATE('Y'); ?> Federico Martín</p>
     </footer>
     <!-- End Footer -->
