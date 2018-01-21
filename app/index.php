@@ -23,6 +23,7 @@
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+	
 </head>
 <body>
     <!-- Start Header -->
@@ -46,18 +47,15 @@
     
     <!-- Start Home -->
     <section class="home page-section page-section--all-h" id="home">
-        <div class="home__img">
-            <img src="assets/images/Detailed-Tree-Silhouette.svg" alt="Tree Silhouette" style="display: none;">
-        </div>
+        <img src="assets/images/Detailed-Tree-Silhouette.svg" alt="Tree Silhouette" class="home__img">
         <div class="container">
             <div class="home__box">
-                <div class="home__box__top">
-                    <p>My name is federico</p>
-                </div>
+                <span class="icon-computer-macintosh-vintage home__box__icon"></span>
+                <div class="home__box__top">My name is Federico</div>
                 <h1 class="home__box__title">I'M A WEB DEVELOPER</h1>
                 <p class="home__box__description">from Buenos Aires, Argentina. If you want to learn more about me, hit the button below</p>
                 <a href="#" class="button">SEE MORE</a>
-                <div class="home__box_bottom"></div>    
+                <div class="home__box__top home__box__top--bb"><p>My name is Federico</p></div>    
             </div>
         </div>
     </section>

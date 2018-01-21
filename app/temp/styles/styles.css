@@ -8360,12 +8360,8 @@ button.close {
 }
 
 body{
-    font-family: 'Josefin Sans', sans-serif; 
-}
-
-img{
-    max-width: 100%;
-    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 *{
@@ -8459,7 +8455,7 @@ ul{
                         transform: scale(1.1);
             }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 576px){
 
 .site-header__nav-menu{
             display: block
@@ -8479,4 +8475,110 @@ ul{
 
 .page-section--all-h{
         height: 100vh;
+    }
+
+.home{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.home__img{
+        display: none;
+        z-index: -1;
+        
+    }
+
+@media only screen and (min-width: 768px){
+
+.home__img{
+            display: block;
+            position: absolute;
+            top: 0;
+            right: -10%;
+            height: 100vh;
+            width: 500px
+        
+    }
+    }
+
+.home__box{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 400px;
+    }
+
+@media only screen and (min-width: 768px){
+
+.home__box{
+            margin: 0 0 0 4rem;
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%)
+    }
+    }
+
+.home__box__icon{
+            display: block;
+            font-size: 3rem;
+        }
+
+.home__box__top{
+            font-size: 1.3rem;
+            letter-spacing: 5px;
+            padding: 2rem 2.5rem;
+            display: inline-block;
+            border-top: 4px solid #000;
+            border-left: 4px solid #000;
+            border-right: 4px solid #000;
+        }
+
+.home__box__top--bb{
+                border-top: 0;
+                border-bottom: 4px solid #000;
+                text-indent: -99999;
+            }
+
+.home__box__top--bb p{
+                    margin: 0;
+                    padding: 0;
+                    visibility: hidden;
+                }
+
+.home__box__title{
+            margin: 0;
+            padding: 2rem 0;
+            font-weight: 600;
+        }
+
+.home__box__description{
+            margin: 0 auto;
+            max-width: 400px;
+            letter-spacing: .8px;
+        }
+
+.button{
+    text-decoration: none !important;
+    margin: 2rem 0;
+    display: inline-block;
+    padding: 1.3rem 3.5rem;
+    border: 2px solid #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    cursor: pointer;
+    -webkit-transition: all .8s ease-out;
+    transition: all .8s ease-out;
+}
+
+.button:hover{
+        color: #fff;
+        background-color: #000;
     }

@@ -4,3 +4,5 @@
 @import 'base/_global.css';
 @import 'modules/_site-header';
 @import 'modules/_page-section';
+@import 'modules/_home';
+@import 'modules/_button';

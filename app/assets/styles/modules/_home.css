@@ -1,0 +1,72 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &__img{
+        display: none;
+        z-index: -1;
+        
+        @mixin atMedium{
+            display: block;
+            position: absolute;
+            top: 0;
+            right: -10%;
+            height: 100vh;
+            width: 500px;
+        }
+        
+    }
+    
+    &__box{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 400px;
+        
+        @mixin atMedium{
+            margin: 0 0 0 4rem;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        &__icon{
+            display: block;
+            font-size: 3rem;
+        }
+        
+        &__top{
+            font-size: 1.3rem;
+            letter-spacing: 5px;
+            padding: 2rem 2.5rem;
+            display: inline-block;
+            border-top: 4px solid #000;
+            border-left: 4px solid #000;
+            border-right: 4px solid #000;
+            
+            &--bb{
+                border-top: 0;
+                border-bottom: 4px solid #000;
+                text-indent: -99999;
+                
+                p{
+                    margin: 0;
+                    padding: 0;
+                    visibility: hidden;
+                }
+            }
+        }
+        
+        &__title{
+            margin: 0;
+            padding: 2rem 0;
+            font-weight: 600;
+        }
+        
+        &__description{
+            margin: 0 auto;
+            max-width: 400px;
+            letter-spacing: .8px;
+        }
+    }
+}
