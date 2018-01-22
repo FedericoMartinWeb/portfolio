@@ -1,0 +1,15 @@
+.title{
+    margin-bottom: 4rem;
+    letter-spacing: 2px;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    
+    &:after{
+        content: '';
+        display: block;
+        width: 50%;
+        height: 2px;
+        background-color: #000;
+        margin-top: .5rem;
+    }
+}

@@ -63,12 +63,12 @@
     
     <!-- Start About Me -->
     <section class="about page-section" id="about">
-        <h2 class="section-title">About me</h2>
-        
-        <div class="about__description">
-            <p>Live-edge seitan forage cornhole biodiesel typewriter. Cardigan succulents meditation, ugh blog YOLO narwhal raw denim plaid heirloom distillery tote bag master cleanse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse. Live-edge seitan forage cornhole biodiesel typewriter. Cardigan succulents meditation, ugh blog YOLO narwhal raw denim plaid heirloom distillery tote bag master cleanse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse.</p>
+        <div class="container">
+            <h2 class="title">About me</h2>
+            <div class="about__description">
+                <p>Live-edge seitan forage cornhole biodiesel typewriter. Cardigan succulents meditation, ugh blog YOLO narwhal raw denim plaid heirloom distillery tote bag master cleanse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse. Live-edge seitan forage cornhole biodiesel typewriter. Cardigan succulents meditation, ugh blog YOLO narwhal raw denim plaid heirloom distillery tote bag master cleanse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse.</p>
+            </div>
         </div>
-        
         <div class="about__img">
             <img src="assets/images/grunge-corner.svg" alt="Grunge Corner">
         </div>
@@ -77,7 +77,7 @@
     
     <!-- Start Services -->
     <main class="services page-section" id="services">
-        <h2 class="section-title">What can I do</h2>
+        <h2 class="title">What can I do</h2>
         <article class="services__item">
             <span class="icon-code"></span>
             <h3 class="services__title">DEVELOPMENT</h3>
@@ -100,7 +100,7 @@
     
     <!-- Start Technologies -->
         <section class="technologies page-section" id="technologies">
-            <h2 class="section-title">Technologies</h2>
+            <h2 class="title">Technologies</h2>
             
             <div class="technologies__list">
                 <ul>
@@ -123,7 +123,7 @@
     
     <!-- Start Portfolio -->
     <section class="portfolio page-section" id="portfolio">
-        <h2 class="section-title">My Portfolio</h2>
+        <h2 class="title">My Portfolio</h2>
         
         <div class="portfolio__categories">
             <nav>
@@ -171,7 +171,7 @@
     
     <!-- Start Contact -->
     <section class="contact page-section" id="contact">
-        <h2 class="section-title">Get in Touch</h2>
+        <h2 class="title">Get in Touch</h2>
         <form action="post" class="contact__form">
             <input type="text" placeholder="Name" name="name">
             <input type="text" placeholder="E-mail" name="email">
