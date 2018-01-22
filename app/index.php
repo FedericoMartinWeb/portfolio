@@ -44,7 +44,7 @@
        </nav>
     </header>
     <!-- End Header -->
-    Test
+    
     <!-- Start Home -->
     <section class="home page-section page-section--all-h" id="home">
         <img src="assets/images/Detailed-Tree-Silhouette.svg" alt="Tree Silhouette" class="home__img">
