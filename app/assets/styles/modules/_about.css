@@ -1,0 +1,46 @@
+.about{
+    position: relative;
+    background-color: #f3f3f3;
+    
+    &__description{
+        line-height: 21px;
+    }
+    
+    &__img-corner{
+        display: none;
+    }
+    
+    &__img-code{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 4rem;
+    }
+    
+    &__img-code > img{
+        width: 100px;    
+    }
+    
+    @mixin atSmall{
+        &__img-code > img{
+            width: 142px;    
+        }
+    }
+    
+    @mixin atLarge{
+        &__img-code > img{
+            display: none;    
+        }
+        
+        &__img-corner{
+            display: inline-block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        
+        &__description{
+            width: 60%;
+        }
+    }
+}

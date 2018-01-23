@@ -68,10 +68,15 @@
             <div class="about__description">
                 <p>Live-edge seitan forage cornhole biodiesel typewriter. Cardigan succulents meditation, ugh blog YOLO narwhal raw denim plaid heirloom distillery tote bag master cleanse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse. Live-edge seitan forage cornhole biodiesel typewriter. Cardigan succulents meditation, ugh blog YOLO narwhal raw denim plaid heirloom distillery tote bag master cleanse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse.</p>
             </div>
+        
+            <img class="about__img-corner" src="assets/images/grunge-corner.svg" alt="Grunge Corner">
+        
+        <div class="about__img-code">
+            <img src="assets/images/html-5-logo.svg" alt="Logo Html">
+            <img src="assets/images/js.svg" alt="Logo Js">
+            <img src="assets/images/css-3.svg" alt="Logo css3">
         </div>
-        <div class="about__img">
-            <img src="assets/images/grunge-corner.svg" alt="Grunge Corner">
-        </div>
+        </div>    
     </section>
     <!-- End About Me -->
     
