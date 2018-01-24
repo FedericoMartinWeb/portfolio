@@ -3,6 +3,7 @@
     letter-spacing: 2px;
     display: inline-block;
     border-bottom: 1px solid #ccc;
+    font-size: 2.4rem;
     
     &:after{
         content: '';

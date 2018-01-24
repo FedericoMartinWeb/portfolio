@@ -84,23 +84,31 @@
     <main class="services page-section" id="services">
         <div class="container">
             <h2 class="title">What can I do</h2>
-            <article class="services__item">
-                <span class="icon-code"></span>
-                <h3 class="services__title">DEVELOPMENT</h3>
-                <p class="services__description">Responsive development will help make your website easily accessible across all devices.</p>
-            </article>
-
-            <article class="services__item">
-                <span class="icon-pencil"></span>
-                <h3 class="services__title">DESIGN</h3>
-                <p class="services__description">Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
-            </article>
-
-            <article class="services__item">
-                <span class="icon-pencil"></span>
-                <h3 class="services__title">SUPPORT</h3>
-                <p class="services__description">Responsive development will help make your website easily accessible across all devices.</p>
-            </article>
+            <div class="row">
+                <div class="services__item--content col-sm-4">
+                    <article class="services__item">
+                        <span class="icon-code"></span>
+                        <h3 class="services__title">DEVELOPMENT</h3>
+                        <p class="services__description">Responsive development will help make your website easily accessible across all devices.</p>
+                    </article>
+                </div>
+                
+                <div class="services__item--content col-sm-4">
+                    <article class="services__item">
+                        <span class="icon-pencil"></span>
+                        <h3 class="services__title">DESIGN</h3>
+                        <p class="services__description">Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
+                    </article>
+                </div>
+                
+                <div class="services__item--content col-sm-4">
+                    <article class="services__item">
+                        <span class="icon-pencil"></span>
+                        <h3 class="services__title">SUPPORT</h3>
+                        <p class="services__description">Responsive development will help make your website easily accessible across all devices.</p>
+                    </article>
+                </div>
+            </div>
         </div>      
     </main>
     <!-- End Services -->
