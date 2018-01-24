@@ -63,44 +63,51 @@
     
     <!-- Start About Me -->
     <section class="about page-section" id="about">
-        <h2 class="section-title">About me</h2>
+        <div class="container">
+            <h2 class="title">About me</h2>
+            <div class="about__description">
+                <p>Live-edge seitan forage cornhole biodiesel typewriter. Cardigan succulents meditation, ugh blog YOLO narwhal raw denim plaid heirloom distillery tote bag master cleanse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse. Live-edge seitan forage cornhole biodiesel typewriter. Cardigan succulents meditation, ugh blog YOLO narwhal raw denim plaid heirloom distillery tote bag master cleanse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse.</p>
+            </div>
         
-        <div class="about__description">
-            <p>Live-edge seitan forage cornhole biodiesel typewriter. Cardigan succulents meditation, ugh blog YOLO narwhal raw denim plaid heirloom distillery tote bag master cleanse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse. Live-edge seitan forage cornhole biodiesel typewriter. Cardigan succulents meditation, ugh blog YOLO narwhal raw denim plaid heirloom distillery tote bag master cleanse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse.</p>
-        </div>
+            <img class="about__img-corner" src="assets/images/grunge-corner.svg" alt="Grunge Corner">
         
-        <div class="about__img">
-            <img src="assets/images/grunge-corner.svg" alt="Grunge Corner">
+        <div class="about__img-code">
+            <img src="assets/images/html-5-logo.svg" alt="Logo Html">
+            <img src="assets/images/js.svg" alt="Logo Js">
+            <img src="assets/images/css-3.svg" alt="Logo css3">
         </div>
+        </div>    
     </section>
     <!-- End About Me -->
     
     <!-- Start Services -->
     <main class="services page-section" id="services">
-        <h2 class="section-title">What can I do</h2>
-        <article class="services__item">
-            <span class="icon-code"></span>
-            <h3 class="services__title">DEVELOPMENT</h3>
-            <p class="services__description">Responsive development will help make your website easily accessible across all devices.</p>
-        </article>
-        
-        <article class="services__item">
-            <span class="icon-pencil"></span>
-            <h3 class="services__title">DESIGN</h3>
-            <p class="services__description">Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
-        </article>
-        
-        <article class="services__item">
-            <span class="icon-pencil"></span>
-            <h3 class="services__title">SUPPORT</h3>
-            <p class="services__description">Responsive development will help make your website easily accessible across all devices.</p>
-        </article>      
+        <div class="container">
+            <h2 class="title">What can I do</h2>
+            <article class="services__item">
+                <span class="icon-code"></span>
+                <h3 class="services__title">DEVELOPMENT</h3>
+                <p class="services__description">Responsive development will help make your website easily accessible across all devices.</p>
+            </article>
+
+            <article class="services__item">
+                <span class="icon-pencil"></span>
+                <h3 class="services__title">DESIGN</h3>
+                <p class="services__description">Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
+            </article>
+
+            <article class="services__item">
+                <span class="icon-pencil"></span>
+                <h3 class="services__title">SUPPORT</h3>
+                <p class="services__description">Responsive development will help make your website easily accessible across all devices.</p>
+            </article>
+        </div>      
     </main>
     <!-- End Services -->
     
     <!-- Start Technologies -->
         <section class="technologies page-section" id="technologies">
-            <h2 class="section-title">Technologies</h2>
+            <h2 class="title">Technologies</h2>
             
             <div class="technologies__list">
                 <ul>
@@ -123,7 +130,7 @@
     
     <!-- Start Portfolio -->
     <section class="portfolio page-section" id="portfolio">
-        <h2 class="section-title">My Portfolio</h2>
+        <h2 class="title">My Portfolio</h2>
         
         <div class="portfolio__categories">
             <nav>
@@ -171,7 +178,7 @@
     
     <!-- Start Contact -->
     <section class="contact page-section" id="contact">
-        <h2 class="section-title">Get in Touch</h2>
+        <h2 class="title">Get in Touch</h2>
         <form action="post" class="contact__form">
             <input type="text" placeholder="Name" name="name">
             <input type="text" placeholder="E-mail" name="email">
