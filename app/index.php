@@ -72,7 +72,7 @@
             <img class="about__img-corner" src="assets/images/grunge-corner.svg" alt="Grunge Corner">
         
         <div class="about__img-code">
-            <img src="assets/images/html-5.svg" alt="Logo Html">
+            <img src="assets/images/html-5-logo.svg" alt="Logo Html">
             <img src="assets/images/js.svg" alt="Logo Js">
             <img src="assets/images/css-3.svg" alt="Logo css3">
         </div>
