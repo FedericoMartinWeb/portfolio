@@ -1,7 +1,6 @@
 .about{
     position: relative;
     background-color: #f3f3f3;
-    background-color: red;
     
     &__description{
         line-height: 21px;
