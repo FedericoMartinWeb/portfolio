@@ -86,7 +86,7 @@
             <h2 class="title">What can I do</h2>
             <div class="row">
                
-                <div class="services__item--content col-sm-4">
+                <div class="services__item--content col-md-4">
                     <article class="services__item">
                         <span class="icon-code services__icon"></span>
                         <h3 class="services__title">DEVELOPMENT</h3>
@@ -94,7 +94,7 @@
                     </article>
                 </div>
                 
-                <div class="services__item--content col-sm-4">
+                <div class="services__item--content col-md-4">
                     <article class="services__item">
                         <span class="icon-pencil services__icon"></span>
                         <h3 class="services__title">DESIGN</h3>    
@@ -102,7 +102,7 @@
                     </article>
                 </div>
                 
-                <div class="services__item--content col-sm-4">
+                <div class="services__item--content col-md-4">
                     <article class="services__item">
                         <span class="icon-pencil services__icon"></span>
                         <h3 class="services__title">SUPPORT</h3>

@@ -4,12 +4,16 @@
         border: 1px solid #f6f6f6;
         text-align: center;
         padding: 2.9rem 2.5rem;
-        border: 1px solid red;
         transition: all .3s ease-out;
         margin-bottom: 2rem;
+        cursor: pointer;
         
-        @mixin atMedium{
-            margin-bottom: 0;
+        @mixin atSmall{
+            padding: 2.9rem 11.5rem;
+        }
+        
+        @mixin atLarge{
+            padding: 2.9rem 2.5rem;
         }
         
         &:hover{

@@ -8613,7 +8613,7 @@ ul{
 
 .about{
     position: relative;
-    background-color: #f3f3f3;
+    background-color: #f6f6f6;
 }
 
 .about__description{
@@ -8668,16 +8668,23 @@ ul{
         border: 1px solid #f6f6f6;
         text-align: center;
         padding: 2.9rem 2.5rem;
-        border: 1px solid red;
         -webkit-transition: all .3s ease-out;
         transition: all .3s ease-out;
         margin-bottom: 2rem;
+        cursor: pointer;
     }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 576px){
 
 .services__item{
-            margin-bottom: 0
+            padding: 2.9rem 11.5rem
+    }
+    }
+
+@media only screen and (min-width: 992px){
+
+.services__item{
+            padding: 2.9rem 2.5rem
     }
     }
 
