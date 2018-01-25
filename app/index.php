@@ -115,24 +115,27 @@
     <!-- End Services -->
     
     <!-- Start Technologies -->
-        <section class="technologies page-section" id="technologies">
-            <h2 class="title">Technologies</h2>
-            
-            <div class="technologies__list">
-                <ul>
-                    <li>- HTML5</li>
-                    <li>- CSS3</li>
-                    <li>- VanillaJS</li>
-                    <li>- JQuery</li>
-                    <li>- NodeJS</li>
-                    <li>- Bootstrap</li>
-                    <li>- Sass</li>
-                    <li>- PostCSS</li>
-                    <li>- Gulp</li>
-                    <li>- Babel</li>
-                    <li>- WebPack</li>
-                    <li>- WordPress</li>
-                </ul>
+        <section class="tecno page-section" id="tecno">
+           <img class="tecno__img" src="assets/images/marco.svg" alt="Marco-technologies">
+            <div class="container">
+                <h2 class="title">Technologies</h2>
+
+                <div class="tecno__list">
+                    <ul>
+                        <li>- HTML5</li>
+                        <li>- CSS3</li>
+                        <li>- VanillaJS</li>
+                        <li>- JQuery</li>
+                        <li>- NodeJS</li>
+                        <li>- Bootstrap</li>
+                        <li>- Sass</li>
+                        <li>- PostCSS</li>
+                        <li>- Gulp</li>
+                        <li>- Babel</li>
+                        <li>- WebPack</li>
+                        <li>- WordPress</li>
+                    </ul>
+                </div>
             </div>
         </section>
     <!-- End Technologies -->

@@ -1,0 +1,12 @@
+.tecno{
+    background-color: #f6f6f6;
+    position: relative;
+    
+    &__img{
+        position: absolute;
+        top: 0;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+    }
+}
