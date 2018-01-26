@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Hi Welcome to my code, made with coffee, music and BEM methodology -->
     <meta charset="UTF-8">
     <title>Federico Martín | Desarrollo web</title>
     
@@ -116,7 +117,7 @@
     
     <!-- Start Technologies -->
         <section class="tecno page-section" id="tecno">
-           <img class="tecno__img" src="assets/images/marco.svg" alt="Marco-technologies">
+            <img class="tecno__img" src="assets/images/skyline.svg" alt="Buenos Aires">
             <div class="container">
                 <h2 class="title">Technologies</h2>
 
@@ -130,7 +131,7 @@
                         <li>- Bootstrap</li>
                         <li>- Sass</li>
                         <li>- PostCSS</li>
-                        <li>- Gulp</li>
+                        <li>- Git</li>
                         <li>- Babel</li>
                         <li>- WebPack</li>
                         <li>- WordPress</li>
