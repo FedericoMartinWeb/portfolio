@@ -8466,7 +8466,7 @@ ul{
                         transform: scale(1.1);
             }
 
-@media only screen and (min-width: 576px){
+@media only screen and (min-width: 992px){
 
 .site-header__nav-menu{
             display: block

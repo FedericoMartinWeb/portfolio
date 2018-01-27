@@ -71,7 +71,7 @@
             }
         }
         
-        @mixin atSmall{
+        @mixin atLarge{
             display: block;
         }
     }
