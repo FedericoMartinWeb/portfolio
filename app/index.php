@@ -125,7 +125,7 @@
                     <ul>
                         <li>- HTML5</li>
                         <li>- CSS3</li>
-                        <li>- VanillaJS</li>
+                        <li>- JavaScript</li>
                         <li>- JQuery</li>
                         <li>- NodeJS</li>
                         <li>- Bootstrap</li>
@@ -143,48 +143,50 @@
     
     <!-- Start Portfolio -->
     <section class="portfolio page-section" id="portfolio">
-        <h2 class="title">My Portfolio</h2>
-        
-        <div class="portfolio__categories">
-            <nav>
-                <ul>
-                    <li data-filter="all" class="active">All Categories</li>
-                    <li data-filter="1" class="">Web Development</li>
-                    <li data-filter="2" class="">Js Projects</li>
-                </ul>
-            </nav>
-        </div>
-        
-        <div class="portfolio__item--wrapper filtr-container clearfix">
-            <section class="filtr-item" data-category="1">
-                <a href="assets/images/travel.png" data-lightbox="portfolio">
-                    <img class="filtr-img" alt="travel" src="assets/images/travel.png" />
-                </a>
-            </section>
-            
-            <section class="filtr-item" data-category="1">
-                <a href="assets/images/tahk.jpg" data-lightbox="portfolio">
-                    <img class="filtr-img" alt="tahk" src="assets/images/tahk.jpg" />
-                </a>
-            </section>
-            
-            <section class="filtr-item" data-category="1">
-                <a href="assets/images/Zeit-fema.jpg" data-lightbox="portfolio">
-                    <img class="filtr-img" alt="zeit" src="assets/images/Zeit-fema.jpg" />
-                </a>
-            </section>
-            
-            <section class="filtr-item" data-category="1">
-                <a href="assets/images/maverick.jpg" data-lightbox="portfolio">
-                    <img class="filtr-img" alt="maverick" src="assets/images/maverick.jpg" />
-                </a>
-            </section>
-            
-            <section class="filtr-item" data-category="1">
-                <a href="assets/images/piggame.png" data-lightbox="portfolio">
-                    <img class="filtr-img" alt="piggame" src="assets/images/piggame.png" />
-                </a>
-            </section>
+        <div class="container">
+            <h2 class="title">My Portfolio</h2>
+
+            <div class="portfolio__categories">
+                <nav>
+                    <ul>
+                        <li data-filter="all" class="active">All Categories</li>
+                        <li data-filter="1" class="">Web Development</li>
+                        <li data-filter="2" class="">Js Projects</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="portfolio__item--wrapper filtr-container clearfix">
+                <section class="filtr-item" data-category="1">
+                    <a href="assets/images/rsz_travel.jpg" data-lightbox="portfolio">
+                        <img class="filtr-img" alt="travel" src="assets/images/rsz_travel.jpg" />
+                    </a>
+                </section>
+
+                <section class="filtr-item" data-category="1">
+                    <a href="assets/images/rsz_tahk.jpg" data-lightbox="portfolio">
+                        <img class="filtr-img" alt="tahk" src="assets/images/rsz_tahk.jpg" />
+                    </a>
+                </section>
+
+                <section class="filtr-item" data-category="1">
+                    <a href="assets/images/rsz_1zeit-fema.jpg" data-lightbox="portfolio">
+                        <img class="filtr-img" alt="zeit" src="assets/images/rsz_1zeit-fema.jpg" />
+                    </a>
+                </section>
+
+                <section class="filtr-item" data-category="1">
+                    <a href="assets/images/rsz_maverick.jpg" data-lightbox="portfolio">
+                        <img class="filtr-img" alt="maverick" src="assets/images/rsz_maverick.jpg" />
+                    </a>
+                </section>
+
+                <section class="filtr-item" data-category="2">
+                    <a href="assets/images/rsz_piggame.jpg" data-lightbox="portfolio">
+                        <img class="filtr-img" alt="piggame" src="assets/images/rsz_piggame.jpg" />
+                    </a>
+                </section>
+            </div>
         </div>
     </section>
     <!-- End Portfolio -->
@@ -207,7 +209,8 @@
         <p>Copyright &copy; <?php echo DATE('Y'); ?> Federico Martín</p>
     </footer>
     <!-- End Footer -->
-    
+    <script src="temp/scripts/jquery-3.2.0.min.js"></script>
+    <script src="temp/scripts/jquery.filterizr.min.js"></script>
     <script src="temp/scripts/app.js"></script>
 </body>
 </html>

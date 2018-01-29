@@ -1,7 +1,7 @@
 .services{
     
     &__item{
-        border: 1px solid #f6f6f6;
+        border: 1px solid #d4d4d4;
         text-align: center;
         padding: 2.9rem 2.5rem;
         transition: all .3s ease-out;
@@ -17,6 +17,7 @@
         }
         
         &:hover{
+            border: none;
             transform: translateY(-3%);
             box-shadow: 0px 7px 21px 3px rgba(150,150,150,1);
         }
