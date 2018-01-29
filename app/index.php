@@ -157,9 +157,10 @@
             </div>
 
             <div class="portfolio__item--wrapper filtr-container clearfix">
+                
                 <section class="filtr-item" data-category="1">
                     <a href="assets/images/rsz_travel.jpg" data-lightbox="portfolio">
-                        <img class="filtr-img" alt="travel" src="assets/images/rsz_travel.jpg" />
+                        <img class="filtr-img img-responsive" alt="travel" src="assets/images/rsz_travel.jpg" />
                     </a>
                 </section>
 
