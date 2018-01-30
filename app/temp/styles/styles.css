@@ -8745,6 +8745,19 @@ ul{
                 margin-right: 0;
             }
 
+.portfolio__item--wrapper{
+        text-align: center;
+    }
+
+.portfolio__item--wrapper__section{
+            width: 100%;
+        }
+
+.portfolio__item--wrapper__img{
+            width: 100%;
+            margin-bottom: 1.3rem;
+        }
+
 .active{
     border-bottom: 2px solid #000 !important;
 }
