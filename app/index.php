@@ -158,35 +158,46 @@
 
             <div class="portfolio__item--wrapper filtr-container container">
                 <div class="row container">
-                    <section class="filtr-item portfolio__item--wrapper__section" data-category="1">
-                        <a href="assets/images/rsz_travel.jpg" data-lightbox="portfolio">
-                            <img class="filtr-img portfolio__item--wrapper__img" alt="travel" src="assets/images/rsz_travel.jpg" />
-                        </a>
-                    </section>
-
-                    <section class="filtr-item portfolio__item--wrapper__section" data-category="1">
-                        <a href="assets/images/rsz_tahk.jpg" data-lightbox="portfolio">
-                            <img class="filtr-img portfolio__item--wrapper__img" alt="tahk" src="assets/images/rsz_tahk.jpg" />
-                        </a>
-                    </section>
-
-                    <section class="filtr-item portfolio__item--wrapper__section" data-category="1">
-                        <a href="assets/images/rsz_1zeit-fema.jpg" data-lightbox="portfolio">
-                            <img class="filtr-img portfolio__item--wrapper__img" alt="zeit" src="assets/images/rsz_1zeit-fema.jpg" />
-                        </a>
-                    </section>
-
-                    <section class="filtr-item portfolio__item--wrapper__section" data-category="1">
-                        <a href="assets/images/rsz_maverick.jpg" data-lightbox="portfolio">
-                            <img class="filtr-img portfolio__item--wrapper__img" alt="maverick" src="assets/images/rsz_maverick.jpg" />
-                        </a>
-                    </section>
-
-                    <section class="filtr-item portfolio__item--wrapper__section" data-category="2">
-                        <a href="assets/images/rsz_piggame.jpg" data-lightbox="portfolio">
-                            <img class="filtr-img portfolio__item--wrapper__img" alt="piggame" src="assets/images/rsz_piggame.jpg" />
-                        </a>
-                    </section>
+                    
+                    <div class="col-sm-4">
+                        <section class="filtr-item portfolio__item--wrapper__section" data-category="1">
+                            <a href="assets/images/rsz_travel.jpg" data-lightbox="portfolio">
+                                <img class="filtr-img portfolio__item--wrapper__img" alt="travel" src="assets/images/rsz_travel.jpg" />
+                            </a>
+                        </section>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <section class="filtr-item portfolio__item--wrapper__section" data-category="1">
+                            <a href="assets/images/rsz_tahk.jpg" data-lightbox="portfolio">
+                                <img class="filtr-img portfolio__item--wrapper__img" alt="tahk" src="assets/images/rsz_tahk.jpg" />
+                            </a>
+                        </section>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <section class="filtr-item portfolio__item--wrapper__section" data-category="1">
+                            <a href="assets/images/rsz_1zeit-fema.jpg" data-lightbox="portfolio">
+                                <img class="filtr-img portfolio__item--wrapper__img" alt="zeit" src="assets/images/rsz_1zeit-fema.jpg" />
+                            </a>
+                        </section>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <section class="filtr-item portfolio__item--wrapper__section" data-category="1">
+                            <a href="assets/images/rsz_maverick.jpg" data-lightbox="portfolio">
+                                <img class="filtr-img portfolio__item--wrapper__img" alt="maverick" src="assets/images/rsz_maverick.jpg" />
+                            </a>
+                        </section>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <section class="filtr-item portfolio__item--wrapper__section" data-category="2">
+                            <a href="assets/images/rsz_piggame.jpg" data-lightbox="portfolio">
+                                <img class="filtr-img portfolio__item--wrapper__img" alt="piggame" src="assets/images/rsz_piggame.jpg" />
+                            </a>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>

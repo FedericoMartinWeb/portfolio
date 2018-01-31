@@ -8754,8 +8754,10 @@ ul{
         }
 
 .portfolio__item--wrapper__img{
-            width: 100%;
             margin-bottom: 1.3rem;
+            position: relative;
+            -webkit-filter: grayscale(100%);
+                    filter: grayscale(100%);
         }
 
 .active{
