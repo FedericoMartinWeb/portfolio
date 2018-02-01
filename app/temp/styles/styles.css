@@ -8758,7 +8758,26 @@ ul{
             position: relative;
             -webkit-filter: grayscale(100%);
                     filter: grayscale(100%);
+            -webkit-transition: all .4s ease-out;
+            transition: all .4s ease-out;
         }
+
+.portfolio__item--wrapper__img:hover{
+                -webkit-filter: grayscale(0);
+                        filter: grayscale(0);
+                -webkit-transform: scale(0.5);
+                        transform: scale(0.5);
+            }
+
+@media only screen and (min-width: 768px){
+            .portfolio__item--wrapper__section{
+                width: auto;
+            }
+            
+            .portfolio__item--wrapper__img{
+                margin-bottom: 2.8rem;
+            }
+    }
 
 .active{
     border-bottom: 2px solid #000 !important;
