@@ -203,14 +203,16 @@
     
     <!-- Start Contact -->
     <section class="contact page-section" id="contact">
-        <h2 class="title">Get in Touch</h2>
-        <form action="post" class="contact__form">
-            <input type="text" placeholder="Name" name="name">
-            <input type="text" placeholder="E-mail" name="email">
-            <input type="text" placeholder="Subject" name="subject">
-            <textarea name="messaje" placeholder="Message" id="message" cols="50" rows="2"></textarea>
-            <input type="submit" value="SEND" class="button">
-        </form>
+        <div class="container">
+            <h2 class="title">Get in Touch</h2>
+            <form action="post" class="contact__form">
+                <input type="text" placeholder="Name" name="name">
+                <input type="text" placeholder="E-mail" name="email">
+                <input type="text" placeholder="Subject" name="subject">
+                <textarea name="messaje" placeholder="Message" id="message" cols="50" rows="2"></textarea>
+                <input type="submit" value="SEND" class="button">
+            </form>
+        </div>
     </section>
     <!-- End Contact -->
     

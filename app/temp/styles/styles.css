@@ -8765,8 +8765,8 @@ ul{
 .portfolio__item--wrapper__img:hover{
                 -webkit-filter: grayscale(0);
                         filter: grayscale(0);
-                -webkit-transform: scale(0.5);
-                        transform: scale(0.5);
+                -webkit-transform: scale(1.04);
+                        transform: scale(1.04);
             }
 
 @media only screen and (min-width: 768px){
@@ -8781,4 +8781,8 @@ ul{
 
 .active{
     border-bottom: 2px solid #000 !important;
+}
+
+.contact{
+    background-color: red;
 }
