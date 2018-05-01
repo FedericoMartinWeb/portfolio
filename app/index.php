@@ -221,8 +221,8 @@
         <p>Copyright &copy; <?php echo DATE('Y'); ?> Federico Martín</p>
     </footer>
     <!-- End Footer -->
-    <script src="temp/scripts/jquery-3.2.0.min.js"></script>
-    <script src="temp/scripts/jquery.filterizr.min.js"></script>
-    <script src="temp/scripts/app.js"></script>
+     <script src="temp/scripts/App.js"></script>
+     <script src="temp/scripts/jquery.filterizr.min.js"></script>
+   
 </body>
 </html>

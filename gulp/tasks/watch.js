@@ -13,10 +13,6 @@ gulp.task('watch', function(){
        gulp.start('styles'); 
     });
     
-    watch("./app/*.php", function(){
-       gulp.start('html'); 
-    });
-    
     watch('./app/assets/scripts/**/*.js', function(){
        gulp.start('scripts'); 
     });
