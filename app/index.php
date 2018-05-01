@@ -3,7 +3,7 @@
 <head>
     <!-- Hi Welcome to my code, made with coffee, music and BEM methodology -->
     <meta charset="UTF-8">
-    <title>ederico Martín | Desarrollo web</title>
+    <title>Federico Martín | Desarrollo web</title>
     
     <!-- Meta tags -->
     <meta name="description" content="Desarrollo profesional de sitios web, 100% adaptables a todos los dispositivos">
