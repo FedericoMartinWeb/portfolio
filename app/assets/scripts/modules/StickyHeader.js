@@ -7,7 +7,6 @@ class StickyHeader{
         this.lazyImages = $('.lazyload');
         this.siteHeader = $('.site-header');
         this.headerTrigger = $('.large-hero__title');
-        this.createHeaderWaypoint();
         this.pageSections = $('.page-section');
         this.headerLinks = $('.primary-nav a');
         this.createPageSectionWaypoints();
@@ -23,17 +22,6 @@ class StickyHeader{
     
     addSmoothScrolling(){
         this.headerLinks.smoothScroll();
-    }
-    
-    createHeaderWaypoint(){
-        var that = this;
-        new Waypoint({
-            //Trigger element, cuando llegas a ese punto se activa el waypoint
-            element: this.headerTrigger[0],
-            handler: function(){
-                that.siteHeader.toggleClass('site-header--dark');
-            }
-        });
     }
     
     createPageSectionWaypoints(){

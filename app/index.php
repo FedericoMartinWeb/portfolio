@@ -34,6 +34,16 @@
            <span class="site-header__menu-icon__title">MENU</span>
        </div>
        
+       <nav class="site-header__primary">
+           <ul>
+               <li><a href="#" class="icon-home-house-streamline">About Me</a></li>
+               <li><a href="#" class="icon-settings-1">What can I do</a></li>
+               <li><a href="#" class="icon-settings">Technologies</a></li>
+               <li><a href="#" class="icon-streamline-suitcase-travel">Portfolio</a></li>
+               <li><a href="#" class="icon-comments-o">Get in touch</a></li>
+           </ul>
+       </nav>
+       
        <nav class="site-header__nav-menu">
            <ul>
                <li><a href="#" class="icon-home-house-streamline"></a></li>

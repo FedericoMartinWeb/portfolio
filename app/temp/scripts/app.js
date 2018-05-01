@@ -11115,7 +11115,6 @@ var mobile = new _MobileMenu2.default();
 new _revealOnScroll2.default((0, _jquery2.default)('.feature-item'), '85%');
 new _revealOnScroll2.default((0, _jquery2.default)('.testimonial'), '85%');
 var sticky = new _StickyHeader2.default();
-/*palaciosss*/
 
 /***/ }),
 /* 3 */
@@ -11265,7 +11264,6 @@ var StickyHeader = function () {
         this.lazyImages = (0, _jquery2.default)('.lazyload');
         this.siteHeader = (0, _jquery2.default)('.site-header');
         this.headerTrigger = (0, _jquery2.default)('.large-hero__title');
-        this.createHeaderWaypoint();
         this.pageSections = (0, _jquery2.default)('.page-section');
         this.headerLinks = (0, _jquery2.default)('.primary-nav a');
         this.createPageSectionWaypoints();
@@ -11284,18 +11282,6 @@ var StickyHeader = function () {
         key: 'addSmoothScrolling',
         value: function addSmoothScrolling() {
             this.headerLinks.smoothScroll();
-        }
-    }, {
-        key: 'createHeaderWaypoint',
-        value: function createHeaderWaypoint() {
-            var that = this;
-            new Waypoint({
-                //Trigger element, cuando llegas a ese punto se activa el waypoint
-                element: this.headerTrigger[0],
-                handler: function handler() {
-                    that.siteHeader.toggleClass('site-header--dark');
-                }
-            });
         }
     }, {
         key: 'createPageSectionWaypoints',

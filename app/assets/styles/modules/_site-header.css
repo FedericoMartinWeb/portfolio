@@ -1,4 +1,13 @@
 .site-header{
+    position: fixed;
+    width: 175px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+    @mixin atMedium{
+        width: auto;
+    }
     
     &__menu-icon{
         z-index: 3;
@@ -6,6 +15,79 @@
         top: 2rem;
         left: 3rem;
         cursor: pointer;
+        transition: all .3s ease-out;
+        height: 0;
+        
+        &:after{
+            content: '';
+            display: block;
+            width: 35px;
+            height: 10px;
+            position: relative;
+            top: -30px;
+        }
+    }
+    
+    &__primary{
+        padding: 54px 0 0 0;
+        color: #fff;
+        background-color: #000;
+        transform: translateX(-100%);
+        transition: all .2s ease-out;
+        
+        @mixin atMedium{
+            display: flex;
+            justify-content: space-around;
+            align-items:  center;
+            padding: 0 20px 0 120px;
+        }
+        
+        li{
+            list-style: none;
+            padding: .8rem 0;
+            
+            @mixin atMedium{
+                float: left;
+            }
+        }
+        
+        a{
+            color: #fff;
+            display: block;
+            text-decoration: none;
+            padding-left: calc(4rem + 1px);
+            
+            @mixin atMedium{
+                padding-left: 2rem;
+                padding-top: .4rem;
+            }
+            &::before{
+                position: relative;
+                right: 10px;
+                
+                @mixin atMedium{
+                    display: none;
+                }
+            }
+        }
+    }
+    
+    &--is-expanded{
+        .site-header__primary{
+            background-color: rgba(0, 0, 0, 0.94);
+            transform: translateX(0);
+        }
+        
+        .site-header__menu-icon{
+            color: #fff;
+        }
+        
+        .site-header__menu-icon__middle{
+            &, &:after, &:before{
+                background-color: #fff;
+            }
+        }
+        
     }
     
     &__menu-icon__middle{
@@ -30,6 +112,10 @@
             position: absolute;
             bottom: .7rem;
             background-color: #000;
+        }
+        
+        &, &::before, &::after{
+            transition: all .3s ease-out;
         }
     }
     
