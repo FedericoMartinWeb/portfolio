@@ -48,13 +48,13 @@
     
     <!-- Start Home -->
     <section class="home page-section page-section--all-h" id="home">
-        <img src="assets/images/Detailed-Tree-Silhouette.svg" alt="Tree Silhouette" class="home__img">
+        <!--<img src="assets/images/Detailed-Tree-Silhouette.jpg" alt="Tree Silhouette" class="home__img">-->
         <div class="container">
             <div class="home__box">
                 <span class="icon-computer-macintosh-vintage home__box__icon"></span>
                 <div class="home__box__top">My name is Federico</div>
                 <h1 class="home__box__title">I'M A WEB DEVELOPER</h1>
-                <p class="home__box__description">from Buenos Aires, Argentina. If you want to learn more about me, hit the button below</p>
+                <p class="home__box__description">from Buenos Aires, Argentina. If you want to learn more about me, hit the button&nbsp;below</p>
                 <a href="#" class="button">SEE MORE</a>
                 <div class="home__box__top home__box__top--bb"><p>My name is Federico</p></div>    
             </div>
