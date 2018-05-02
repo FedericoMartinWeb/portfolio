@@ -215,13 +215,21 @@
     <section class="contact page-section" id="contact">
         <div class="container">
             <h2 class="title">Get in Touch</h2>
+            
             <form action="post" class="contact__form">
-                <input type="text" placeholder="Name" name="name">
-                <input type="text" placeholder="E-mail" name="email">
+               <div class="row">
+                <div class="col-md-6">
+                    <input type="text" placeholder="Name" name="name">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" placeholder="E-mail" name="email">
+                </div>
                 <input type="text" placeholder="Subject" name="subject">
                 <textarea name="messaje" placeholder="Message" id="message" cols="50" rows="2"></textarea>
                 <input type="submit" value="SEND" class="button">
+                </div>
             </form>
+            
         </div>
     </section>
     <!-- End Contact -->

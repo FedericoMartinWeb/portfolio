@@ -31,8 +31,9 @@
     &__primary{
         padding: 54px 0 0 0;
         color: #fff;
-        background-color: #000;
-        transform: translateX(-100%);
+        background-color:rgba(23,23,23,.95);
+        box-shadow: 3px 4px 5px -2px rgba(143,143,143,1);
+        transform: translateX(-110%);
         transition: all .2s ease-out;
         
         @mixin atMedium{
@@ -74,7 +75,7 @@
     
     &--is-expanded{
         .site-header__primary{
-            background-color: rgba(0, 0, 0, 0.94);
+            
             transform: translateX(0);
         }
         

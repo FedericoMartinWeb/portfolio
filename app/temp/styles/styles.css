@@ -8429,9 +8429,11 @@ ul{
 .site-header__primary{
         padding: 54px 0 0 0;
         color: #fff;
-        background-color: #000;
-        -webkit-transform: translateX(-100%);
-                transform: translateX(-100%);
+        background-color:rgba(23,23,23,.95);
+        -webkit-box-shadow: 3px 4px 5px -2px rgba(143,143,143,1);
+                box-shadow: 3px 4px 5px -2px rgba(143,143,143,1);
+        -webkit-transform: translateX(-110%);
+                transform: translateX(-110%);
         -webkit-transition: all .2s ease-out;
         transition: all .2s ease-out;
     }
@@ -8491,8 +8493,9 @@ ul{
     }
 
 .site-header--is-expanded .site-header__primary{
-            background-color: rgba(0, 0, 0, 0.94);
+            
             -webkit-transform: translateX(0);
+            
                     transform: translateX(0);
         }
 
