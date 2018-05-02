@@ -8406,32 +8406,73 @@ ul{
 }
     }
 
-.site-header__menu-icon{
-        z-index: 3;
+.site-header__wrapper-icon{
         position: fixed;
         top: 2rem;
         left: 3rem;
-        cursor: pointer;
-        -webkit-transition: all .3s ease-out;
-        transition: all .3s ease-out;
-        height: 0;
+        background-color: red;
+        width: 50px;
+        height: 50px;
     }
 
-.site-header__menu-icon:after{
+.site-header__menu-icon{
+        width: 20px;
+        height: 19px;
+        position: fixed;
+        top: 15px;
+        left: 10px;
+        z-index: 10;
+    }
+
+.site-header__menu-icon::before{
             content: '';
-            display: block;
-            width: 35px;
-            height: 10px;
-            position: relative;
-            top: -30px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: #000;
+            -webkit-transform-origin: 0 0;
+                    transform-origin: 0 0;
+            -webkit-transition: -webkit-transform .3s ease-out;
+            transition: -webkit-transform .3s ease-out;
+            transition: transform .3s ease-out;
+            transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+        }
+
+.site-header__menu-icon__middle{
+            position: absolute;
+            top: 8px;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: #000;
+            -webkit-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+            -webkit-transform-origin: 0 50%;
+                    transform-origin: 0 50%;
+        }
+
+.site-header__menu-icon::after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: #000;
+            -webkit-transform-origin: 0 100%;
+                    transform-origin: 0 100%;
+            -webkit-transition: -webkit-transform .3s ease-out;
+            transition: -webkit-transform .3s ease-out;
+            transition: transform .3s ease-out;
+            transition: transform .3s ease-out, -webkit-transform .3s ease-out;
         }
 
 .site-header__primary{
         padding: 54px 0 0 0;
         color: #fff;
         background-color:rgba(23,23,23,.95);
-        -webkit-box-shadow: 3px 4px 5px -2px rgba(143,143,143,1);
-                box-shadow: 3px 4px 5px -2px rgba(143,143,143,1);
         -webkit-transform: translateX(-110%);
                 transform: translateX(-110%);
         -webkit-transition: all .2s ease-out;
@@ -8507,40 +8548,9 @@ ul{
                 background-color: #fff;
             }
 
-.site-header__menu-icon__middle{
-        width: 2.7rem;
-        height: .2rem;
-        background-color: #000;
-        position: relative;
-    }
-
-.site-header__menu-icon__middle::after{
-            content: '';
-            width: 2.7rem;
-            height: .2rem;
-            position: absolute;
-            bottom: -.7rem;
-            background-color: #000;
-        }
-
-.site-header__menu-icon__middle::before{
-            content: '';
-            width: 2.7rem;
-            height: .2rem;
-            position: absolute;
-            bottom: .7rem;
-            background-color: #000;
-        }
-
-.site-header__menu-icon__middle, .site-header__menu-icon__middle::before, .site-header__menu-icon__middle::after{
-            -webkit-transition: all .3s ease-out;
-            transition: all .3s ease-out;
-        }
-
 .site-header__menu-icon__title{
         position: relative;
-        left: 3.4rem;
-        bottom: 1.1rem;
+        left: 3.2rem;
         font-size: 1.1rem;
         font-weight: 600;
         letter-spacing: 1px;
@@ -8585,6 +8595,22 @@ ul{
             display: block
     }
     }
+
+.site-header__menu-icon--close-x::before{
+            -webkit-transform: rotate(45deg) scaleX(1.25);
+                    transform: rotate(45deg) scaleX(1.25);
+        }
+
+.site-header__menu-icon--close-x .site-header__menu-icon__middle{
+            opacity: 0;
+            -webkit-transform: scaleX(0);
+                    transform: scaleX(0);
+        }
+
+.site-header__menu-icon--close-x::after{
+            -webkit-transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+                    transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+        }
 
 .page-section{
     padding: 4.2rem 0;
