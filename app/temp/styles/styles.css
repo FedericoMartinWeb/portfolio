@@ -8419,9 +8419,10 @@ ul{
         width: 20px;
         height: 19px;
         position: fixed;
-        top: 15px;
-        left: 10px;
+        top: 24px;
+        left: 32px;
         z-index: 10;
+        cursor: pointer;
     }
 
 .site-header__menu-icon::before{
@@ -8496,13 +8497,14 @@ ul{
 
 .site-header__primary li{
             list-style: none;
-            padding: .8rem 0;
+            padding: .9rem 0;
         }
 
 @media only screen and (min-width: 768px){
 
 .site-header__primary li{
-                float: left
+                float: left;
+                padding: 21px 0
         }
     }
 
@@ -8534,26 +8536,31 @@ ul{
     }
 
 .site-header--is-expanded .site-header__primary{
-            
             -webkit-transform: translateX(0);
-            
                     transform: translateX(0);
         }
 
-.site-header--is-expanded .site-header__menu-icon{
+.site-header--is-expanded .site-header__menu-icon::before{
+            background-color: #fff !important;   
+        }
+
+.site-header--is-expanded .site-header__menu-icon::after{
+            background-color: #fff !important;   
+        }
+
+.site-header--is-expanded .site-header__menu-icon__title{
             color: #fff;
         }
 
-.site-header--is-expanded .site-header__menu-icon__middle, .site-header--is-expanded .site-header__menu-icon__middle:after, .site-header--is-expanded .site-header__menu-icon__middle:before{
-                background-color: #fff;
-            }
-
 .site-header__menu-icon__title{
         position: relative;
-        left: 3.2rem;
+        left: 3rem;
+        top: 1px;
         font-size: 1.1rem;
         font-weight: 600;
         letter-spacing: 1px;
+        -webkit-transition: all .2s ease-out;
+        transition: all .2s ease-out;
     }
 
 .site-header__nav-menu{
