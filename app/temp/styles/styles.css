@@ -8994,5 +8994,42 @@ ul{
 }
 
 .contact{
-    background-color: red;
+
+	background-color: #f6f6f6;
 }
+
+.contact__form input, .contact__form textarea{
+    		width: 100%;
+    		padding: 2rem 0;
+    		border-top: none;
+    		border-right: none;
+    		border-left: none;
+    		background-color: #f6f6f6;
+    	}
+
+.contact__form textarea{
+    		resize: none;
+    		border-bottom: 2px solid #eee !important;
+    	}
+
+.contact__form input:focus, .contact__form textarea:focus{
+    		outline: none; 
+    		border-bottom: 2px solid #000 !important;
+    	}
+
+.contact__form input[type="submit"]{
+    		border: 2px solid #000;
+    		background-color: #f6f6f6;
+    	}
+
+.contact__form input[type="submit"]:hover{
+    		background-color: #000 !important;
+    	}
+
+.footer{
+    text-align: center;
+}
+
+.footer__paragraph{
+        margin-bottom: 0 !important;
+    }

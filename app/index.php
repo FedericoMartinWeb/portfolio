@@ -218,15 +218,21 @@
             
             <form action="post" class="contact__form">
                <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6 col-xs-12">
                     <input type="text" placeholder="Name" name="name">
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6 col-xs-12">
                     <input type="text" placeholder="E-mail" name="email">
                 </div>
-                <input type="text" placeholder="Subject" name="subject">
-                <textarea name="messaje" placeholder="Message" id="message" cols="50" rows="2"></textarea>
-                <input type="submit" value="SEND" class="button">
+                <div class="col-sm-12">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="col-sm-12">
+                    <textarea name="messaje" placeholder="Message" id="message"></textarea>
+                </div>
+                <div class="col-xs-5 col-sm-3">
+                    <input type="submit" value="SEND" class="button">
+                </div>
                 </div>
             </form>
             
@@ -236,7 +242,7 @@
     
     <!-- Start Footer -->
     <footer class="footer page-section" id="footer">
-        <p>Copyright &copy; <?php echo DATE('Y'); ?> Federico Martín</p>
+        <p class="footer__paragraph">Copyright &copy; <?php echo DATE('Y'); ?> Federico Martín | All Rights Reserved.</p>
     </footer>
     <!-- End Footer -->
      <script src="temp/scripts/App.js"></script>

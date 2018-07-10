@@ -1,0 +1,7 @@
+.footer{
+    text-align: center;
+
+    &__paragraph{
+        margin-bottom: 0 !important;
+    }
+}
