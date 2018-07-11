@@ -188,3 +188,7 @@
         }
     }
 }
+
+.is-current-link{
+    color: red !important;
+}

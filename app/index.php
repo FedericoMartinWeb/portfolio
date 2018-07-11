@@ -36,8 +36,8 @@
        
        <nav class="site-header__primary">
            <ul>
-               <li><a href="#" class="icon-home-house-streamline">About Me</a></li>
-               <li><a href="#" class="icon-settings-1">What can I do</a></li>
+               <li><a href="#about" id="about-link" class="icon-home-house-streamline">About Me</a></li>
+               <li><a href="#services" class="icon-settings-1" id="services-link">What can I do</a></li>
                <li><a href="#" class="icon-settings">Technologies</a></li>
                <li><a href="#" class="icon-streamline-suitcase-travel">Portfolio</a></li>
                <li><a href="#" class="icon-comments-o">Get in touch</a></li>
@@ -46,8 +46,8 @@
        
        <nav class="site-header__nav-menu">
            <ul>
-               <li><a href="#" class="icon-home-house-streamline"></a></li>
-               <li><a href="#" class="icon-settings-1"></a></li>
+               <li><a href="#about" class="icon-home-house-streamline" id="about-link"></a></li>
+               <li><a href="#services" class="icon-settings-1" id="services-link"></a></li>
                <li><a href="#" class="icon-settings"></a></li>
                <li><a href="#" class="icon-streamline-suitcase-travel"></a></li>
                <li><a href="#" class="icon-comments-o"></a></li>
@@ -73,7 +73,7 @@
     <!-- End Home -->
     
     <!-- Start About Me -->
-    <section class="about page-section" id="about">
+    <section class="about page-section" id="about" data-matching-link="#about-link">
         <div class="container">
             <h2 class="title">About me</h2>
             <div class="about__description">
@@ -92,7 +92,7 @@
     <!-- End About Me -->
     
     <!-- Start Services -->
-    <main class="services page-section" id="services">
+    <main class="services page-section" id="services" data-matching-link="#services-link">
         <div class="container">
             <h2 class="title">What can I do</h2>
             <div class="row">

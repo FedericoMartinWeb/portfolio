@@ -1,7 +1,9 @@
 .footer{
+    background-color: #000;
     text-align: center;
 
     &__paragraph{
         margin-bottom: 0 !important;
+        color: #fff;
     }
 }

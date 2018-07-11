@@ -8619,6 +8619,10 @@ ul{
                     transform: rotate(-45deg) scaleX(1.25) translateY(1px);
         }
 
+.is-current-link{
+    color: red !important;
+}
+
 .page-section{
     padding: 4.2rem 0;
 }
@@ -9027,9 +9031,11 @@ ul{
     	}
 
 .footer{
+    background-color: #000;
     text-align: center;
 }
 
 .footer__paragraph{
         margin-bottom: 0 !important;
+        color: #fff;
     }
