@@ -27,6 +27,9 @@
 	
 </head>
 <body>
+    <!-- go up -->
+        <span class="goup"></span>
+    <!-- end go up -->
     <!-- Start Header -->
     <header class="site-header">
        <div class="site-header__menu-icon">
@@ -38,9 +41,9 @@
            <ul>
                <li><a href="#about" id="about-link" class="icon-home-house-streamline">About Me</a></li>
                <li><a href="#services" class="icon-settings-1" id="services-link">What can I do</a></li>
-               <li><a href="#" class="icon-settings">Technologies</a></li>
-               <li><a href="#" class="icon-streamline-suitcase-travel">Portfolio</a></li>
-               <li><a href="#" class="icon-comments-o">Get in touch</a></li>
+               <li><a href="#tecno" id="tecno-link" class="icon-settings">Technologies</a></li>
+               <li><a href="#portfolio" class="icon-streamline-suitcase-travel" id="portfolio-link">Portfolio</a></li>
+               <li><a href="#contact" class="icon-comments-o" id="contact-link">Get in touch</a></li>
            </ul>
        </nav>
        
@@ -126,7 +129,7 @@
     <!-- End Services -->
     
     <!-- Start Technologies -->
-        <section class="tecno page-section" id="tecno">
+        <section class="tecno page-section" id="tecno" data-matching-link="#tecno-link">
             <img class="tecno__img" src="assets/images/skyline.svg" alt="Buenos Aires">
             <div class="container">
                 <h2 class="title">Technologies</h2>
@@ -152,7 +155,7 @@
     <!-- End Technologies -->
     
     <!-- Start Portfolio -->
-    <section class="portfolio page-section" id="portfolio">
+    <section class="portfolio page-section" id="portfolio" data-matching-link="#portfolio-link">
         <div class="container">
             <h2 class="title">My Portfolio</h2>
 
@@ -212,7 +215,7 @@
     <!-- End Portfolio -->
     
     <!-- Start Contact -->
-    <section class="contact page-section" id="contact">
+    <section class="contact page-section" id="contact" data-matching-link="#contact-link">
         <div class="container">
             <h2 class="title">Get in Touch</h2>
             

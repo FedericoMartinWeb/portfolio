@@ -8619,10 +8619,6 @@ ul{
                     transform: rotate(-45deg) scaleX(1.25) translateY(1px);
         }
 
-.is-current-link{
-    color: red !important;
-}
-
 .page-section{
     padding: 4.2rem 0;
 }
@@ -9029,6 +9025,21 @@ ul{
 .contact__form input[type="submit"]:hover{
     		background-color: #000 !important;
     	}
+
+.goup{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    display: none;
+}
+
+.showup{
+    display: block;
+}
 
 .footer{
     background-color: #000;

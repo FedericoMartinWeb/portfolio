@@ -11145,12 +11145,27 @@ var MobileMenu = function () {
         this.menuIcon = (0, _jquery2.default)('.site-header__menu-icon');
         this.menuContent = (0, _jquery2.default)('.site-header__menu-content');
         this.events();
+        this.scroll();
     }
 
     _createClass(MobileMenu, [{
         key: 'events',
         value: function events() {
             this.menuIcon.click(this.toggleTheMenu.bind(this));
+        }
+    }, {
+        key: 'scroll',
+        value: function scroll() {
+            (0, _jquery2.default)(window).scroll(function () {
+                var scroll = (0, _jquery2.default)(window).scrollTop();
+                var winVH = (0, _jquery2.default)(window).height();
+
+                if (scroll >= winVH) {
+                    (0, _jquery2.default)(".goup").addClass("showup");
+                } else {
+                    (0, _jquery2.default)(".goup").removeClass("showup");
+                }
+            });
         }
     }, {
         key: 'toggleTheMenu',
@@ -11298,7 +11313,7 @@ var StickyHeader = function () {
                             (0, _jquery2.default)(matchingLink).addClass('is-current-link');
                         }
                     },
-                    offset: '18%'
+                    offset: '0%'
                 });
 
                 new Waypoint({
