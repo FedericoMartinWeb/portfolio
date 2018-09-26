@@ -28,7 +28,7 @@
 </head>
 <body>
     <!-- go up -->
-        <span class="goup"></span>
+        <span class="goup"><a href="#about" class="icon-up-thin"></a></span>
     <!-- end go up -->
     <!-- Start Header -->
     <header class="site-header">

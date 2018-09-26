@@ -9035,10 +9035,24 @@ ul{
     left: 0;
     z-index: 9;
     display: none;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
 }
 
 .showup{
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
 }
 
 .footer{

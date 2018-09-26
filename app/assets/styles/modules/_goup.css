@@ -7,8 +7,13 @@
     left: 0;
     z-index: 9;
     display: none;
+    transition: all .3s ease-out;
+    transform: translateX(-100%);
 }
 
 .showup{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
 }
