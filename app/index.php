@@ -16,9 +16,6 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
     
-    <!-- Icons -->
-    <link href="https://file.myfontastic.com/Fe6YFffCEVhcvQVzVyqwRm/icons.css" rel="stylesheet">
-    
     <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -26,9 +23,9 @@
 	<![endif]-->
 	
 </head>
-<body>
+<body id="body">
     <!-- go up -->
-        <span class="goup"><a href="#about" class="icon-up-thin"></a></span>
+        <span class="goup"><a href="#body" class="icon-up-thin"></a></span>
     <!-- end go up -->
     <!-- Start Header -->
     <header class="site-header">
@@ -39,8 +36,9 @@
        
        <nav class="site-header__primary">
            <ul>
-               <li><a href="#about" id="about-link" class="icon-home-house-streamline">About Me</a></li>
-               <li><a href="#services" class="icon-settings-1" id="services-link">What can I do</a></li>
+               <li><a href="#body" id="about-link" class="icon-home-house-streamline">Home</a></li>
+               <li><a href="#about" id="about-link" class="icon-settings-1">About Me</a></li>
+               <li><a href="#services" class="icon-terminal" id="services-link">What can I do</a></li>
                <li><a href="#tecno" id="tecno-link" class="icon-settings">Technologies</a></li>
                <li><a href="#portfolio" class="icon-streamline-suitcase-travel" id="portfolio-link">Portfolio</a></li>
                <li><a href="#contact" class="icon-comments-o" id="contact-link">Get in touch</a></li>
@@ -49,11 +47,12 @@
        
        <nav class="site-header__nav-menu">
            <ul>
-               <li><a href="#about" class="icon-home-house-streamline" id="about-link"></a></li>
-               <li><a href="#services" class="icon-settings-1" id="services-link"></a></li>
-               <li><a href="#" class="icon-settings"></a></li>
-               <li><a href="#" class="icon-streamline-suitcase-travel"></a></li>
-               <li><a href="#" class="icon-comments-o"></a></li>
+               <li class="noSelect"><a href="#body" class="icon-home-house-streamline" id="about-link"></a></li>
+               <li><a href="#about" class="icon-settings-1" id="services-link"></a></li>
+               <li><a href="#services" class="icon-terminal" id="services-link"></a></li>
+               <li><a href="#tecno" class="icon-settings"></a></li>
+               <li><a href="#portfolio" class="icon-streamline-suitcase-travel"></a></li>
+               <li><a href="#contact" class="icon-comments-o"></a></li>
            </ul>
        </nav>
     </header>
@@ -251,5 +250,5 @@
      <script src="temp/scripts/App.js"></script>
      <script src="temp/scripts/jquery.filterizr.min.js"></script>
    
-</body>
+</ id=¨body¨>
 </html>

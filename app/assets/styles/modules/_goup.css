@@ -1,19 +1,36 @@
 .goup{
+    
+    .icon-up-thin{
+        text-decoration: none !important;
+        color: #ffffff;
+        background-color: #000;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px; 
+        animation: mymove 2s infinite;
+    }
+    
     position: fixed;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    bottom: 0;
-    left: 0;
+    bottom: 10px;
+    right: 15px;
     z-index: 9;
-    display: none;
     transition: all .3s ease-out;
-    transform: translateX(-100%);
+    transform: translateX(150%);
+    
 }
 
 .showup{
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateX(100%);
+    transform: translateX(0%);
 }
+
+@keyframes mymove {
+    0%   {background: rgb(31, 31, 31);}
+    50% {background: rgb(145, 145, 145);}
+    100%   {background: rgb(31, 31, 31);}
+}
+

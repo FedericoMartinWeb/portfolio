@@ -11280,7 +11280,7 @@ var StickyHeader = function () {
         this.siteHeader = (0, _jquery2.default)('.site-header');
         this.headerTrigger = (0, _jquery2.default)('.large-hero__title');
         this.pageSections = (0, _jquery2.default)('.page-section');
-        this.headerLinks = (0, _jquery2.default)('.site-header__primary ul li a, .site-header__nav-menu ul li a');
+        this.headerLinks = (0, _jquery2.default)('.site-header__primary ul li a, .site-header__nav-menu ul li a, .goup a');
         this.createPageSectionWaypoints();
         this.addSmoothScrolling();
         this.refreshWaypoints();

@@ -17,7 +17,7 @@ class MobileMenu{
         $(window).scroll(function() {    
             var scroll = $(window).scrollTop();
             var winVH = $(window).height();
-
+            
             if (scroll >= winVH) {
                 $(".goup").addClass("showup");
             } else {
