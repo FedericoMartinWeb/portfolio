@@ -5,6 +5,7 @@ class MobileMenu{
         this.siteHeader = $('.site-header');
         this.menuIcon = $('.site-header__menu-icon');
         this.menuContent = $('.site-header__menu-content');
+        this.navPrimary = $('.site-header__primary');
         this.events();
         this.scroll();
     }
@@ -30,6 +31,7 @@ class MobileMenu{
         this.menuContent.toggleClass('site-header__menu-content--is-visible');
         this.siteHeader.toggleClass('site-header--is-expanded');
         this.menuIcon.toggleClass('site-header__menu-icon--close-x');
+        this.navPrimary.toggleClass('displayBlock');
     }
 }
 

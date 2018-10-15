@@ -154,7 +154,7 @@
     <!-- End Technologies -->
 
     <!-- Start Portfolio -->
-    <main class="services page-section" id="services" data-matching-link="#services-link">
+    <main class="services page-section" id="portfolio" data-matching-link="#portfolio-link">
         <div class="container">
             <h2 class="title">My Portfolio</h2>
             <div class="row">
@@ -201,21 +201,21 @@
             
             <form action="post" class="contact__form">
                <div class="row">
-                <div class="col-sm-6 col-xs-12">
-                    <input type="text" placeholder="Name" name="name">
-                </div>
-                <div class="col-sm-6 col-xs-12">
-                    <input type="text" placeholder="E-mail" name="email">
-                </div>
-                <div class="col-sm-12">
-                    <input type="text" placeholder="Subject" name="subject">
-                </div>
-                <div class="col-sm-12">
-                    <textarea name="messaje" placeholder="Message" id="message"></textarea>
-                </div>
-                <div class="col-xs-5 col-sm-3">
-                    <input type="submit" value="SEND" class="button">
-                </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <input type="text" placeholder="Name" name="name">
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <input type="text" placeholder="E-mail" name="email">
+                    </div>
+                    <div class="col-xs-12">
+                        <input type="text" placeholder="Subject" name="subject">
+                    </div>
+                    <div class="col-xs-12">
+                        <textarea name="messaje" placeholder="Message" id="message"></textarea>
+                    </div>
+                    <div class="col-xs-5 col-sm-3">
+                        <input type="submit" value="SEND" class="button">
+                    </div>
                 </div>
             </form>
             
