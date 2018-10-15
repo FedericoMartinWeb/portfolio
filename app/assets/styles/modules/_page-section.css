@@ -6,6 +6,14 @@
     }
     
     &--all-h{
-        height: 100vh;
+        height: 650px;
+
+        @mixin atLarge{
+            height: 700px;
+        }
+
+        @mixin atXXLarge{
+            height: 900px;
+        }
     }
 }

@@ -152,65 +152,46 @@
             </div>
         </section>
     <!-- End Technologies -->
-    
+
     <!-- Start Portfolio -->
-    <section class="portfolio page-section" id="portfolio" data-matching-link="#portfolio-link">
+    <main class="services page-section" id="services" data-matching-link="#services-link">
         <div class="container">
             <h2 class="title">My Portfolio</h2>
-
-            <div class="portfolio__categories">
-                <nav>
-                    <ul>
-                        <li data-filter="all" class="active">All Categories</li>
-                        <li data-filter="1" class="">Web Development</li>
-                        <li data-filter="2" class="">Js Projects</li>
-                    </ul>
-                </nav>
-            </div>
-
-            <div class="portfolio__item--wrapper filtr-container container">
-                <div class="row container">
-                    
-                    <div class="col-md-4 filtr-item portfolio__item--wrapper__section" data-category="1">
-                        
-                            <img class="filtr-img portfolio__item--wrapper__img" alt="travel" src="assets/images/rsz_travel.jpg" />
-                        
-                    </div>
-                    
-                    
-                    
-                        <div class="col-md-4 filtr-item portfolio__item--wrapper__section" data-category="1">
-                            <a href="assets/images/rsz_tahk.jpg" data-lightbox="portfolio">
-                                <img class="filtr-img portfolio__item--wrapper__img" alt="tahk" src="assets/images/rsz_tahk.jpg" />
-                            </a>
-                        </div>
-                    
-                    
-                    
-                        <div class="col-md-4 filtr-item portfolio__item--wrapper__section" data-category="1">
-                            <a href="assets/images/rsz_1zeit-fema.jpg" data-lightbox="portfolio">
-                                <img class="filtr-img portfolio__item--wrapper__img" alt="zeit" src="assets/images/rsz_1zeit-fema.jpg" />
-                            </a>
-                        </div>
-                    
-                    
-                        <div class="col-md-4 filtr-item portfolio__item--wrapper__section" data-category="1">
-                            <a href="assets/images/rsz_maverick.jpg" data-lightbox="portfolio">
-                                <img class="filtr-img portfolio__item--wrapper__img" alt="maverick" src="assets/images/rsz_maverick.jpg" />
-                            </a>
-                        </div>
-                    
-                    
-                        <div class="col-sm-4 filtr-item portfolio__item--wrapper__section" data-category="2">
-                            <a href="assets/images/rsz_piggame.jpg" data-lightbox="portfolio">
-                                <img class="filtr-img portfolio__item--wrapper__img" alt="piggame" src="assets/images/rsz_piggame.jpg" />
-                            </a>
-                        </div>
-                    
+            <div class="row">
+               
+                <div class="services__item--content col-xs-6 col-md-4">
+                    <a href="assets/images/rsz_travel.jpg" target="_blank">
+                        <img class="portfolio__item--wrapper__img" alt="travel" src="assets/images/rsz_travel.jpg" />
+                    </a>
                 </div>
+
+                <div class="services__item--content col-xs-6 col-md-4">
+                    <a href="assets/images/rsz_tahk.jpg">
+                        <img class="portfolio__item--wrapper__img" alt="tahk" src="assets/images/rsz_tahk.jpg" />
+                    </a>
+                </div>
+                
+                <div class="services__item--content col-xs-6 col-md-4">
+                    <a href="assets/images/rsz_1zeit-fema.jpg">
+                        <img class="portfolio__item--wrapper__img" alt="zeit" src="assets/images/rsz_1zeit-fema.jpg" />
+                    </a>
+                </div>
+                
+                <div class="services__item--content col-xs-6 col-md-4">
+                    <a href="assets/images/rsz_maverick.jpg">
+                        <img class="portfolio__item--wrapper__img" alt="maverick" src="assets/images/rsz_maverick.jpg" />
+                    </a>
+                </div>
+                
+                <div class="services__item--content col-xs-6 col-md-4">
+                    <a href="assets/images/rsz_piggame.jpg">
+                        <img class="portfolio__item--wrapper__img" alt="piggame" src="assets/images/rsz_piggame.jpg" />
+                    </a>
+                </div>
+            
             </div>
-        </div>
-    </section>
+        </div>      
+    </main>
     <!-- End Portfolio -->
     
     <!-- Start Contact -->
@@ -247,8 +228,7 @@
         <p class="footer__paragraph">Copyright &copy; <?php echo DATE('Y'); ?> Federico Martín | All Rights Reserved.</p>
     </footer>
     <!-- End Footer -->
-     <script src="temp/scripts/App.js"></script>
-     <script src="temp/scripts/jquery.filterizr.min.js"></script>
+     <script src="temp/scripts/App.js"></script>     
    
 </ id=¨body¨>
 </html>

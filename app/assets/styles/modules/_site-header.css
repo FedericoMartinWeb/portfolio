@@ -3,7 +3,7 @@
     width: 175px;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 100;    
     
     @mixin atMedium{
         width: auto;

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    border-bottom: 3px solid #000;
     background-image: url('../../assets/images/hero.jpg');
     background-position: 25% center;
     background-repeat: no-repeat;
