@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <!-- Hi Welcome to my code, made with coffee, music and BEM methodology -->
+    <!-- watch?v=oHg5SJYRHA0 -->
+
     <meta charset="UTF-8">
-    <title>Federico Martín | Desarrollo Web</title>
+    <title>Federico Martín | Front-end Developer</title>
     
     <!-- Meta tags -->
     <meta name="description" content="Desarrollo profesional de sitios web, 100% adaptables a todos los dispositivos">
@@ -15,6 +17,7 @@
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
     
     <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -68,7 +71,7 @@
                 <div class="home__box__top">My name is Federico</div>
                 <h1 class="home__box__title">I'M A FRONT-END DEVELOPER</h1>
                 <p class="home__box__description">from Buenos Aires, Argentina. If you want to learn more about me, hit the button&nbsp;below</p>
-                <a href="#" class="button">SEE MORE</a>
+                <a class="button zindex" href="#about" id="about-link">SEE MORE</a>
                 <div class="home__box__top home__box__top--bb"><p>My name is Federico</p></div>    
             </div>
         </div>
@@ -80,10 +83,12 @@
         <div class="container">
             <h2 class="title">About me</h2>
             <div class="about__description">
-                <p>I have a passion for web develpment and love to create for web and mobile devices, I think that a front-end developer's role is to combine design and business logic to achieve an user-facing product. To do this successfully, a wide skill set is necessary to produce a quality user experience that leads to meeting business goals.
-                With my experience I can create responsive websites that work on a wide range of devices or integrate your website into an easy to use content management system.
-                If you have a project that you want to get started or think you need my help with something, then get in touch.
+                <p>I have a passion for web develpment and love to create for web and mobile devices, 
+                    I think that a front-end developer's role is to combine design and business logic to achieve an user-facing product. To do this successfully, a wide skill set is necessary to produce a quality user experience that leads to meeting business goals. 
+                    I can code intuitive yet minimalistic interfaces or integrate your website into an user-friendly content management system. I stand on the principle that Simple is beautiful, while carefully including the finest details. 
+                    I use the most sophisticated technologies available today for fully interactive and responsive websites and apps. If you have a project that you want to get started or think you need my help with something, then get in touch.
                 </p>
+                <span class="about__description--quote">I'm in that comfy spot between design and development.</span>
             </div>
         
             <img class="about__img-corner" src="assets/images/grunge-corner.svg" alt="Grunge Corner">
@@ -121,7 +126,7 @@
                 
                 <div class="services__item--content col-md-4">
                     <article class="services__item">
-                        <span class="icon-pencil services__icon"></span>
+                        <span class="icon-wordpress services__icon"></span>
                         <h3 class="services__title">WORDPRESS</h3>
                         <p class="services__description">Development of custom and user-friendly WordPress themes.</p>
                     </article>

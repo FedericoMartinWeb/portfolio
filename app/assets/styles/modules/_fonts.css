@@ -80,3 +80,6 @@
 .icon-terminal:before {
   content: "\6b";
 }
+.icon-wordpress:before {
+  content: "\6f";
+}

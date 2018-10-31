@@ -8,10 +8,11 @@
     font-weight: 600;
     letter-spacing: 3px;
     cursor: pointer;
-    transition: all .8s ease-out;
+    transition: all .4s ease-out;
+    color: #000 !important;
     
     &:hover{
-        color: #fff;
+        color: #fff !important;
         background-color: #000;
     }
 }
