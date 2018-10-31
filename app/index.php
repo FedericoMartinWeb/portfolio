@@ -66,7 +66,7 @@
             <div class="home__box">
                 <span class="icon-computer-macintosh-vintage home__box__icon"></span>
                 <div class="home__box__top">My name is Federico</div>
-                <h1 class="home__box__title">I'M A WEB DEVELOPER</h1>
+                <h1 class="home__box__title">I'M A FRONT-END DEVELOPER</h1>
                 <p class="home__box__description">from Buenos Aires, Argentina. If you want to learn more about me, hit the button&nbsp;below</p>
                 <a href="#" class="button">SEE MORE</a>
                 <div class="home__box__top home__box__top--bb"><p>My name is Federico</p></div>    
@@ -80,7 +80,10 @@
         <div class="container">
             <h2 class="title">About me</h2>
             <div class="about__description">
-                <p>Live-edge seitan forage cornhole biodiesel typewriter. Cardigan succulents meditation, ugh blog YOLO narwhal raw denim plaid heirloom distillery tote bag master cleanse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse. Live-edge seitan forage cornhole biodiesel typewriter. Cardigan succulents meditation, ugh blog YOLO narwhal raw denim plaid heirloom distillery tote bag master cleanse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse. La croix chambray everyday carry, kickstarter selfies cold-pressed ennui retro. YOLO edison bulb narwhal, food truck mustache sriracha copper mug glossier craft beer cronut +1 lomo iPhone church-key banh mi. Neutra thundercats kitsch chartreuse.</p>
+                <p>I have a passion for web develpment and love to create for web and mobile devices, I think that a front-end developer's role is to combine design and business logic to achieve an user-facing product. To do this successfully, a wide skill set is necessary to produce a quality user experience that leads to meeting business goals.
+                With my experience I can create responsive websites that work on a wide range of devices or integrate your website into an easy to use content management system.
+                If you have a project that you want to get started or think you need my help with something, then get in touch.
+                </p>
             </div>
         
             <img class="about__img-corner" src="assets/images/grunge-corner.svg" alt="Grunge Corner">
@@ -119,8 +122,8 @@
                 <div class="services__item--content col-md-4">
                     <article class="services__item">
                         <span class="icon-pencil services__icon"></span>
-                        <h3 class="services__title">SUPPORT</h3>
-                        <p class="services__description">Responsive development will help make your website easily accessible across all devices.</p>
+                        <h3 class="services__title">WORDPRESS</h3>
+                        <p class="services__description">Development of custom and user-friendly WordPress themes.</p>
                     </article>
                 </div>
             </div>
