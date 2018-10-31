@@ -88,7 +88,7 @@
                     I can code intuitive yet minimalistic interfaces or integrate your website into an user-friendly content management system. I stand on the principle that Simple is beautiful, while carefully including the finest details. 
                     I use the most sophisticated technologies available today for fully interactive and responsive websites and apps. If you have a project that you want to get started or think you need my help with something, then get in touch.
                 </p>
-                <span class="about__description--quote">I'm in that comfy spot between design and development.</span>
+                <span class="about__description--quote">I'm in that comfy spot where design and development converge.</span>
             </div>
         
             <img class="about__img-corner" src="assets/images/grunge-corner.svg" alt="Grunge Corner">
