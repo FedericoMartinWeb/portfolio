@@ -8391,6 +8391,15 @@ ul{
     margin: 0;
 }
 
+.zindex{
+    z-index: 10;
+}
+
+canvas{
+    display:block;
+    vertical-align:bottom;
+}
+
 @charset "UTF-8";
 
 @font-face {
@@ -8774,37 +8783,15 @@ ul{
         -ms-flex-align: center;
             align-items: center;
     border-bottom: 3px solid #000;
-    background-image: url('../../assets/images/hero.jpg');
-    background-position: 25% center;
-    background-repeat: no-repeat;
+    position: relative;
 }
 
-@media only screen and (min-width: 576px){
-
-.home{
-        background-position: 23% center
-}
-    }
-
-@media only screen and (min-width: 768px){
-
-.home{
-        background-position: 30% center
-}
-    }
-
-@media only screen and (min-width: 992px){
-
-.home{
-        background-position: 20% center
-}
-    }
-
-@media only screen and (min-width: 1400px){
-
-.home{
-        background-position: 1% center
-}
+.home__particulas{
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
     }
 
 .home__img{
@@ -8838,17 +8825,6 @@ ul{
         text-align: center;
         margin: 0 auto;
         max-width: 400px;
-    }
-
-@media only screen and (min-width: 768px){
-
-.home__box{
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-                    transform: translateY(-50%)
-    }
     }
 
 @media only screen and (min-width: 992px){

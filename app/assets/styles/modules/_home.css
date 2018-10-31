@@ -3,24 +3,14 @@
     justify-content: center;
     align-items: center;
     border-bottom: 3px solid #000;
-    background-image: url('../../assets/images/hero.jpg');
-    background-position: 25% center;
-    background-repeat: no-repeat;
+    position: relative;
     
-    @mixin atSmall{
-        background-position: 23% center;
-    }
-    
-    @mixin atMedium{
-        background-position: 30% center;
-    }
-    
-    @mixin atLarge{
-        background-position: 20% center;
-    }
-    
-    @mixin atXXLarge{
-        background-position: 1% center;
+    &__particulas{
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
     }
     
     &__img{
@@ -46,13 +36,6 @@
         text-align: center;
         margin: 0 auto;
         max-width: 400px;
-        
-        @mixin atMedium{
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-        }
         
         @mixin atLarge{
             margin-left: 4rem;

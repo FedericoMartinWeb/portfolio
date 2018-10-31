@@ -60,8 +60,9 @@
     
     <!-- Start Home -->
     <section class="home page-section page-section--all-h" id="home">
+        <div id="particles-js" class="home__particulas"></div>        
         <!--<img src="assets/images/Detailed-Tree-Silhouette.jpg" alt="Tree Silhouette" class="home__img">-->
-        <div class="container">
+        <div class="container zindex">
             <div class="home__box">
                 <span class="icon-computer-macintosh-vintage home__box__icon"></span>
                 <div class="home__box__top">My name is Federico</div>
@@ -228,7 +229,9 @@
         <p class="footer__paragraph">Copyright &copy; <?php echo DATE('Y'); ?> Federico Martín | All Rights Reserved.</p>
     </footer>
     <!-- End Footer -->
-     <script src="temp/scripts/App.js"></script>     
+    <script src="temp/scripts/App.js"></script>   
+    <script src="./temp/scripts/particles.js"></script>
+    <script src="./temp/scripts/partiapp.js"></script>  
    
-</ id=¨body¨>
+</body>
 </html>
