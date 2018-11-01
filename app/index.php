@@ -208,26 +208,32 @@
         <div class="container">
             <h2 class="title">Get in Touch</h2>
             
-            <form action="post" class="contact__form">
+            <form action="http://localhost:8888/portfolio/app/formulario.php" method="post" class="contact__form">
                <div class="row">
                     <div class="col-sm-6 col-xs-12">
-                        <input type="text" placeholder="Name" name="name">
+                        <input type="text" placeholder="Name" name="name" required>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <input type="text" placeholder="E-mail" name="email">
+                        <input type="email" placeholder="E-mail" name="email" required>
                     </div>
                     <div class="col-xs-12">
-                        <input type="text" placeholder="Subject" name="subject">
+                        <input type="text" placeholder="Subject" name="subject" required>
                     </div>
                     <div class="col-xs-12">
-                        <textarea name="messaje" placeholder="Message" id="message"></textarea>
+                        <textarea name="messaje" placeholder="Message" id="message" required></textarea>
                     </div>
                     <div class="col-xs-5 col-sm-3">
                         <input type="submit" value="SEND" class="button">
                     </div>
                 </div>
             </form>
-            
+            <span id="success_message" class="mensajes"></span>
+                <script>
+                    if(window.location.href == "http://localhost:8888/portfolio/app/#contact"){
+                        document.getElementById("success_message").style.display = "block";
+                        document.getElementById("success_message").innerHTML = "Thank you! Your message has been sent successfully.";
+                    }
+                </script>
         </div>
     </section>
     <!-- End Contact -->
