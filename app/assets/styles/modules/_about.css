@@ -10,6 +10,11 @@
             font-size: 2.3rem;  
             margin-top: 15px;
             display: inline-block;
+            line-height: 30px;
+
+            @mixin atSmall{
+                line-height: auto;
+            }
         }
     }
     

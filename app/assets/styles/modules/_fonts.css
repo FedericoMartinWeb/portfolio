@@ -83,3 +83,6 @@
 .icon-wordpress:before {
   content: "\6f";
 }
+.icon-github:before {
+  content: "\70";
+}

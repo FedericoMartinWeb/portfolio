@@ -36,3 +36,11 @@ canvas{
     display:block;
     vertical-align:bottom;
 }
+
+.small-show{
+    display: block;
+
+    @mixin atSmall{
+        display: none;
+    }
+}

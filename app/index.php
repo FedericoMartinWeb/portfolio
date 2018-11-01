@@ -32,10 +32,11 @@
     <!-- end go up -->
     <!-- Start Header -->
     <header class="site-header">
-       <div class="site-header__menu-icon">
-           <div class="site-header__menu-icon__middle"></div>
-           <span class="site-header__menu-icon__title">MENU</span>
-       </div>
+        <div class="site-header__menu-icon">
+            <div class="site-header__menu-icon__middle"></div>
+            <span class="site-header__menu-icon__title">MENU</span>
+        </div>
+       
        
        <nav class="site-header__primary">
            <ul>
@@ -88,7 +89,7 @@
                     I can code intuitive yet minimalistic interfaces or integrate your website into an user-friendly content management system. I stand on the principle that Simple is beautiful, while carefully including the finest details. 
                     I use the most sophisticated technologies available today for fully interactive and responsive websites and apps. If you have a project that you want to get started or think you need my help with something, then get in touch.
                 </p>
-                <span class="about__description--quote">I'm in that comfy spot where design and development converge.</span>
+                <span class="about__description--quote">I'm in that comfy spot where design <br class="small-show">and development converge.</span>
             </div>
         
             <img class="about__img-corner" src="assets/images/grunge-corner.svg" alt="Grunge Corner">
@@ -239,9 +240,12 @@
     <!-- End Contact -->
     
     <!-- Start Footer -->
-    <footer class="footer page-section" id="footer">
-        <p class="footer__paragraph">Copyright &copy; <?php echo DATE('Y'); ?> Federico Martín | All Rights Reserved.</p>
+    <footer class="footer page-section page-section--footer" id="footer">
+        <p class="footer__paragraph">Copyright &copy; <?php echo DATE('Y'); ?> Federico Martín <br class="small-show">| All Rights Reserved.</p>        
+        <span><a href="#" class="github icon-github"></a></span>
     </footer>
+
+    
     <!-- End Footer -->
     <script src="temp/scripts/App.js"></script>   
     <script src="./temp/scripts/particles.js"></script>

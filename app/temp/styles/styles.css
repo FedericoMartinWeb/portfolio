@@ -8400,6 +8400,17 @@ canvas{
     vertical-align:bottom;
 }
 
+.small-show{
+    display: block;
+}
+
+@media only screen and (min-width: 576px){
+
+.small-show{
+        display: none
+}
+    }
+
 @charset "UTF-8";
 
 @font-face {
@@ -8500,6 +8511,10 @@ canvas{
   content: "\6f";
 }
 
+.icon-github:before {
+  content: "\70";
+}
+
 .site-header{
     position: fixed;
     width: 175px;
@@ -8559,10 +8574,10 @@ canvas{
             background-color: #000;
             -webkit-transform-origin: 0 0;
                     transform-origin: 0 0;
-            -webkit-transition: -webkit-transform .3s ease-out;
-            transition: -webkit-transform .3s ease-out;
-            transition: transform .3s ease-out;
-            transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+            -webkit-transition: -webkit-transform .2s ease-out;
+            transition: -webkit-transform .2s ease-out;
+            transition: transform .2s ease-out;
+            transition: transform .2s ease-out, -webkit-transform .2s ease-out;
         }
 
 .site-header__menu-icon__middle{
@@ -8572,8 +8587,8 @@ canvas{
             width: 20px;
             height: 3px;
             background-color: #000;
-            -webkit-transition: all .3s ease-out;
-            transition: all .3s ease-out;
+            -webkit-transition: all .2s ease-out;
+            transition: all .2s ease-out;
             -webkit-transform-origin: 0 50%;
                     transform-origin: 0 50%;
         }
@@ -8588,10 +8603,10 @@ canvas{
             background-color: #000;
             -webkit-transform-origin: 0 100%;
                     transform-origin: 0 100%;
-            -webkit-transition: -webkit-transform .3s ease-out;
-            transition: -webkit-transform .3s ease-out;
-            transition: transform .3s ease-out;
-            transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+            -webkit-transition: -webkit-transform .2s ease-out;
+            transition: -webkit-transform .2s ease-out;
+            transition: transform .2s ease-out;
+            transition: transform .2s ease-out, -webkit-transform .2s ease-out;
         }
 
 .site-header__primary{
@@ -8608,9 +8623,7 @@ canvas{
 @media only screen and (min-width: 768px){
 
 .site-header__primary{
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
+            display: none;
             -ms-flex-pack: distribute;
                 justify-content: space-around;
             -webkit-box-align:  center;
@@ -8748,14 +8761,25 @@ canvas{
     }
 
 .page-section{
-    padding: 4.2rem 0;
+    padding: 72px 0;
 }
 
 @media only screen and (min-width: 768px){
 
 .page-section{
-        padding: 4.5rem 0
+        padding: 85px 0
 }
+    }
+
+.page-section--footer{
+        padding: 30px 0 0 0;
+    }
+
+@media only screen and (min-width: 992px){
+
+.page-section--footer{
+            padding: 40px 0
+    }
     }
 
 .page-section--all-h{
@@ -8945,7 +8969,15 @@ canvas{
             font-size: 2.3rem;  
             margin-top: 15px;
             display: inline-block;
+            line-height: 30px;
         }
+
+@media only screen and (min-width: 576px){
+
+.about__description--quote{
+                line-height: auto
+        }
+    }
 
 .about__img-corner{
         display: none;
@@ -9150,6 +9182,7 @@ canvas{
                 box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.5);
         -webkit-animation: mymove 2s infinite;
                 animation: mymove 2s infinite;
+        font-size: 14px;
     }
 
 .showup{
@@ -9181,11 +9214,45 @@ canvas{
 .footer{
     background-color: #000;
     text-align: center;
+    position: relative;
 }
 
 .footer__paragraph{
         margin-bottom: 0 !important;
         color: #fff;
+    }
+
+.github{
+    font-size: 55px;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    display: block;
+    padding-top: 22px;
+}
+
+@media only screen and (min-width: 992px){
+
+.github{
+        position: fixed;
+        background-color: #000;
+        bottom: 10px;
+        left: 15px;
+        font-size: 35px;
+        padding: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        border-radius: 100px; 
+        -webkit-box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.5); 
+                box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.5);
+        font-size: 35px
+}
     }
 
 .mensajes{

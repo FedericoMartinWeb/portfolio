@@ -1,8 +1,16 @@
 .page-section{
-    padding: 4.2rem 0;
+    padding: 72px 0;
     
     @mixin atMedium{
-        padding: 4.5rem 0;
+        padding: 85px 0;
+    }
+
+    &--footer{
+        padding: 30px 0 0 0;
+
+        @mixin atLarge{
+            padding: 40px 0;
+        }
     }
     
     &--all-h{
