@@ -3,9 +3,8 @@ import $ from 'jquery';
 class MobileMenu{
     constructor(){
         this.siteHeader = $('.site-header');
-        this.menuIcon = $('.site-header__menu-icon');
+        this.menuIcon = $('.menu-button');
         this.menuContent = $('.site-header__menu-content');
-        this.navPrimary = $('.site-header__primary');
         this.events();
         this.scroll();
     }
@@ -18,20 +17,33 @@ class MobileMenu{
         $(window).scroll(function() {    
             var scroll = $(window).scrollTop();
             var winVH = $(window).height();
+            var footerVH = $(footer).height();
             
             if (scroll >= winVH) {
                 $(".goup").addClass("showup");
             } else {
                 $(".goup").removeClass("showup");
             }
+
+            $.fn.scrollBottom = function() { 
+                return $(document).height() - this.scrollTop() - this.height(); 
+            };
+
+            if ($(window).scrollBottom() <= footerVH - 10) {
+                $(".github").addClass("github--showup");
+            } else {
+                $(".github").removeClass("github--showup");
+            }
+
+            console.log($(window).scrollBottom());
+            // console.log(footerVH);
         });
     }
     
     toggleTheMenu(){
         this.menuContent.toggleClass('site-header__menu-content--is-visible');
         this.siteHeader.toggleClass('site-header--is-expanded');
-        this.menuIcon.toggleClass('site-header__menu-icon--close-x');
-        this.navPrimary.toggleClass('displayBlock');
+        this.menuIcon.toggleClass('menu-button--close-x');
     }
 }
 

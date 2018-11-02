@@ -8,7 +8,7 @@ class StickyHeader{
         this.siteHeader = $('.site-header');
         this.headerTrigger = $('.large-hero__title');
         this.pageSections = $('.page-section');
-        this.headerLinks = $('.site-header__primary ul li a, .site-header__nav-menu ul li a, .goup a, .home__box a');        
+        this.headerLinks = $('.site-header__primary ul li a, .nav-menu ul li a, .goup a, .home__box a');        
         this.createPageSectionWaypoints();
         this.addSmoothScrolling();
         this.refreshWaypoints();

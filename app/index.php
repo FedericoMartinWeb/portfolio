@@ -30,14 +30,9 @@
     <!-- go up -->
         <span class="goup"><a href="#body" class="icon-up-thin"></a></span>
     <!-- end go up -->
-    <!-- Start Header -->
+   
+   <!-- Start Header -->
     <header class="site-header">
-        <div class="site-header__menu-icon">
-            <div class="site-header__menu-icon__middle"></div>
-            <span class="site-header__menu-icon__title">MENU</span>
-        </div>
-       
-       
        <nav class="site-header__primary">
            <ul>
                <li><a href="#body" id="about-link" class="icon-home-house-streamline">Home</a></li>
@@ -48,19 +43,28 @@
                <li><a href="#contact" class="icon-comments-o" id="contact-link">Get in touch</a></li>
            </ul>
        </nav>
-       
-       <nav class="site-header__nav-menu">
-           <ul>
-               <li class="noSelect"><a href="#body" class="icon-home-house-streamline" id="about-link"></a></li>
-               <li><a href="#about" class="icon-settings-1" id="services-link"></a></li>
-               <li><a href="#services" class="icon-terminal" id="services-link"></a></li>
-               <li><a href="#tecno" class="icon-settings"></a></li>
-               <li><a href="#portfolio" class="icon-streamline-suitcase-travel"></a></li>
-               <li><a href="#contact" class="icon-comments-o"></a></li>
-           </ul>
-       </nav>
     </header>
     <!-- End Header -->
+
+    <!-- Start Menu Button -->
+    <div class="menu-button">
+        <div class="menu-button__middle"></div>
+        <span class="menu-button__title">MENU</span>
+    </div>
+    <!-- End Menu Button -->
+    
+    <!-- Start Aside Menu -->
+    <nav class="nav-menu">
+        <ul>
+            <li class="noSelect"><a href="#body" class="icon-home-house-streamline" id="about-link"></a></li>
+            <li><a href="#about" class="icon-settings-1" id="services-link"></a></li>
+            <li><a href="#services" class="icon-terminal" id="services-link"></a></li>
+            <li><a href="#tecno" class="icon-settings"></a></li>
+            <li><a href="#portfolio" class="icon-streamline-suitcase-travel"></a></li>
+            <li><a href="#contact" class="icon-comments-o"></a></li>
+        </ul>
+    </nav>
+    <!-- End Aside Menu -->
     
     <!-- Start Home -->
     <section class="home page-section page-section--all-h" id="home">
@@ -229,20 +233,20 @@
                 </div>
             </form>
             <span id="success_message" class="mensajes"></span>
-                <script>
-                    if(window.location.href == "http://localhost:8888/portfolio/app/#contact"){
-                        document.getElementById("success_message").style.display = "block";
-                        document.getElementById("success_message").innerHTML = "Thank you! Your message has been sent successfully.";
-                    }
-                </script>
+            <script>
+                if(window.location.href == "http://localhost:8888/portfolio/app/#contact"){
+                    document.getElementById("success_message").style.display = "block";
+                    document.getElementById("success_message").innerHTML = "Thank you! Your message has been sent successfully.";
+                }
+            </script>
         </div>
     </section>
     <!-- End Contact -->
     
     <!-- Start Footer -->
-    <footer class="footer page-section page-section--footer" id="footer">
+    <footer class="footer" id="footer">
         <p class="footer__paragraph">Copyright &copy; <?php echo DATE('Y'); ?> Federico Martín <br class="small-show">| All Rights Reserved.</p>        
-        <span><a href="#" class="github icon-github"></a></span>
+        <span><a href="https://github.com/FedericoMartinWeb" class="github icon-github" target="_blank"></a></span>
     </footer>
 
     
