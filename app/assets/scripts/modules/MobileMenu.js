@@ -34,9 +34,6 @@ class MobileMenu{
             } else {
                 $(".github").removeClass("github--showup");
             }
-
-            console.log($(window).scrollBottom());
-            // console.log(footerVH);
         });
     }
     

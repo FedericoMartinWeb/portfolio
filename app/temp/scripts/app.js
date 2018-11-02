@@ -11176,9 +11176,6 @@ var MobileMenu = function () {
                 } else {
                     (0, _jquery2.default)(".github").removeClass("github--showup");
                 }
-
-                console.log((0, _jquery2.default)(window).scrollBottom());
-                // console.log(footerVH);
             });
         }
     }, {
