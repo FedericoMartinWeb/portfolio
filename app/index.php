@@ -168,38 +168,42 @@
     <!-- End Technologies -->
 
     <!-- Start Portfolio -->
-    <main class="services page-section" id="portfolio" data-matching-link="#portfolio-link">
+    <main class="portfolio page-section" id="portfolio" data-matching-link="#portfolio-link">
         <div class="container">
             <h2 class="title">My Portfolio</h2>
-            <div class="row">
+            <div class="portfolio__grid">
                
-                <div class="services__item--content col-xs-6 col-md-4">
-                    <a href="assets/images/rsz_travel.jpg" target="_blank">
-                        <img class="portfolio__item--wrapper__img" alt="travel" src="assets/images/rsz_travel.jpg" />
+                <div class="portfolio__item">
+                    <a href="www.google.com">
+                        <img class="portfolio__item__img" src="assets/images/csseditor.png" alt="">
+                    </a>
+                </div>
+                <div class="portfolio__item">
+                    <a href="www.google.com">
+                        <img class="portfolio__item__img" src="assets/images/perro.png" alt="">
+                    </a>
+                </div>
+                <div class="portfolio__item">
+                    <a href="www.google.com">
+                        <img class="portfolio__item__img" src="assets/images/tahk.png" alt="">
+                    </a>
+                </div>
+                
+                <div class="portfolio__item">
+                    <a href="www.google.com">
+                        <img class="portfolio__item__img" src="assets/images/pig.png" alt="">
                     </a>
                 </div>
 
-                <div class="services__item--content col-xs-6 col-md-4">
-                    <a href="assets/images/rsz_tahk.jpg">
-                        <img class="portfolio__item--wrapper__img" alt="tahk" src="assets/images/rsz_tahk.jpg" />
+                <div class="portfolio__item">
+                    <a href="www.google.com">
+                        <img class="portfolio__item__img" src="assets/images/travel.png" alt="">
                     </a>
                 </div>
-                
-                <div class="services__item--content col-xs-6 col-md-4">
-                    <a href="assets/images/rsz_1zeit-fema.jpg">
-                        <img class="portfolio__item--wrapper__img" alt="zeit" src="assets/images/rsz_1zeit-fema.jpg" />
-                    </a>
-                </div>
-                
-                <div class="services__item--content col-xs-6 col-md-4">
-                    <a href="assets/images/rsz_maverick.jpg">
-                        <img class="portfolio__item--wrapper__img" alt="maverick" src="assets/images/rsz_maverick.jpg" />
-                    </a>
-                </div>
-                
-                <div class="services__item--content col-xs-6 col-md-4">
-                    <a href="assets/images/rsz_piggame.jpg">
-                        <img class="portfolio__item--wrapper__img" alt="piggame" src="assets/images/rsz_piggame.jpg" />
+
+                <div class="portfolio__item">
+                    <a href="www.google.com">
+                        <img class="portfolio__item__img" src="assets/images/zeit.png" alt="">
                     </a>
                 </div>
             

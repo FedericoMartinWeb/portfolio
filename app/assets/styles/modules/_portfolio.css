@@ -1,33 +1,45 @@
-.portfolio{    
+.portfolio{
+ 
     
-    &__item--wrapper{
-        text-align: center !important;
-        
-        &__section{
-            width: 100%;
+    &__grid{
+        display: grid;
+        height: 100%;
+        width: auto;
+        grid-gap: 20px 0;
+
+        @mixin atSmall{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 20px;     
         }
-        
+
+        @mixin atLarge{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    
+    &__item{
+
+        @mixin atLarge{
+            &:first-child{
+                grid-column: span 2;
+                grid-row: span 2;
+            }
+        }
+
         &__img{
-            margin-bottom: 1.3rem;
-            position: relative;
-            filter: grayscale(100%);
-            transition: all .4s ease-out;
+            object-fit: cover;
             width: 100%;
-            
-            &:hover{ 
+            height: 100%;
+            filter: brightness(0.73) grayscale(100%);
+            transition: all .4s ease-out;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+
+            &:hover{
                 filter: grayscale(0);
-                transform: scale(1.04);
+                transform: scale(1);
             }
         }
-        
-        @mixin atMedium{
-            &__section{
-                width: 100%;
-            }
-            
-            &__img{
-                margin-bottom: 2.8rem;
-            }
-        }
+
     }
 }
