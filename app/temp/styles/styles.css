@@ -9089,10 +9089,16 @@ canvas{
     }
     }
 
+.portfolio__item{
+        height: 300px;
+
+    }
+
 @media only screen and (min-width: 992px){
             .portfolio__item:first-child{
                 grid-column: span 2;
                 grid-row: span 2;
+                height: 620px;
             }
     }
 
