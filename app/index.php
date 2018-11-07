@@ -175,35 +175,62 @@
                
                 <div class="portfolio__item">
                     <a href="www.google.com">
-                        <img class="portfolio__item__img" src="assets/images/csseditor.png" alt="">
+                        <figure class="portfolio__item__figure">
+                            <img class="portfolio__item__img" src="assets/images/csseditor.png" alt="">
+                            <div class="portfolio__item__hover">
+                                <h2>Css Editor</h2>
+                                <p>Image filter editor for css</p>
+                            </div>
+                        </figure>    
                     </a>
                 </div>
                 <div class="portfolio__item">
                     <a href="www.google.com">
-                        <img class="portfolio__item__img" src="assets/images/perro.png" alt="">
+                        <figure class="portfolio__item__figure">
+                            <img class="portfolio__item__img" src="assets/images/perro.png" alt="">
+                            <div class="portfolio__item__hover">
+                                <h2>Asd</h2>
+                                <p>sddsfsdf</p>
+                            </div>
+                        </figure>
                     </a>
                 </div>
                 <div class="portfolio__item">
                     <a href="www.google.com">
-                        <img class="portfolio__item__img" src="assets/images/tahk.png" alt="">
+                        <figure class="portfolio__item__figure">
+                            <img class="portfolio__item__img" src="assets/images/tahk.png" alt="">
+                            <div class="portfolio__item__hover"></div>
+                        </figure>
                     </a>
                 </div>
                 
                 <div class="portfolio__item">
                     <a href="www.google.com">
-                        <img class="portfolio__item__img" src="assets/images/pig.png" alt="">
+                        <figure class="portfolio__item__figure">
+                            <img class="portfolio__item__img" src="assets/images/pig.png" alt="">
+                            <div class="portfolio__item__hover"></div>
+                        </figure>
                     </a>
                 </div>
 
                 <div class="portfolio__item">
                     <a href="www.google.com">
-                        <img class="portfolio__item__img" src="assets/images/travel.png" alt="">
+                        <figure class="portfolio__item__figure">
+                            <img class="portfolio__item__img" src="assets/images/travel.png" alt="">
+                            <div class="portfolio__item__hover">
+                                <h2>Asd</h2>
+                                <p>sddsfsdf</p>
+                            </div>
+                        </figure>
                     </a>
                 </div>
 
                 <div class="portfolio__item">
                     <a href="www.google.com">
-                        <img class="portfolio__item__img" src="assets/images/zeit.png" alt="">
+                        <figure class="portfolio__item__figure">
+                            <img class="portfolio__item__img" src="assets/images/zeit.png" alt="">
+                            <div class="portfolio__item__hover"></div>
+                        </figure>
                     </a>
                 </div>
             
