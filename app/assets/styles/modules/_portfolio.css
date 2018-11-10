@@ -39,6 +39,11 @@
                 .portfolio__item__hover{
                     transform: translateY(0%);
                 }
+
+                .portfolio__item__img{
+                    filter: grayscale(0.3) opacity(.9);
+                    transform: scale(1.04); 
+                }
             }
         }
 
@@ -68,11 +73,6 @@
             filter: grayscale(1) opacity(1);
             transform-origin: center center;
             transition: all .6s ease-out;
-            
-            &:hover{
-                filter: grayscale(0.3) opacity(.9);
-                transform: scale(1.04);            
-            }
         }
 
     }

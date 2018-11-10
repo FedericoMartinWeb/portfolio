@@ -8804,7 +8804,7 @@ canvas{
         position: absolute;
         left: 0;
         top: 0;
-        bottom: 0;
+        bottom: -50px;
         right: 0;
     }
 
@@ -9115,6 +9115,13 @@ canvas{
                             transform: translateY(0%);
                 }
 
+.portfolio__item__figure:hover .portfolio__item__img{
+                    -webkit-filter: grayscale(0.3) opacity(.9);
+                            filter: grayscale(0.3) opacity(.9);
+                    -webkit-transform: scale(1.04);
+                            transform: scale(1.04); 
+                }
+
 .portfolio__item__hover{
             position: absolute;
             height: 25%;
@@ -9157,13 +9164,6 @@ canvas{
             -webkit-transition: all .6s ease-out;
             transition: all .6s ease-out;
         }
-
-.portfolio__item__img:hover{
-                -webkit-filter: grayscale(0.3) opacity(.9);
-                        filter: grayscale(0.3) opacity(.9);
-                -webkit-transform: scale(1.04);
-                        transform: scale(1.04);            
-            }
 
 .contact{
 
