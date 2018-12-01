@@ -44,3 +44,7 @@ canvas{
         display: none;
     }
 }
+
+input, textarea {
+    border-radius: 0;
+}

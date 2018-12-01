@@ -8,13 +8,21 @@
         margin-bottom: 2rem;
         cursor: pointer;
         box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+        min-height: 241px;
+
         
         @mixin atSmall{
             padding: 2.9rem 11.5rem;
+            min-height: 219px;
         }
         
         @mixin atLarge{
             padding: 2.9rem 2.5rem;
+            min-height: 241px;
+        }
+
+        @mixin atExtraLarge{
+            min-height: 219px;
         }
         
         &:hover{

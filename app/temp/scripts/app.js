@@ -11112,8 +11112,6 @@ var _jquery2 = _interopRequireDefault(_jquery);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var mobile = new _MobileMenu2.default();
-new _revealOnScroll2.default((0, _jquery2.default)('.feature-item'), '85%');
-new _revealOnScroll2.default((0, _jquery2.default)('.testimonial'), '85%');
 var sticky = new _StickyHeader2.default();
 
 /***/ }),

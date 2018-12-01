@@ -75,7 +75,7 @@
                 <span class="icon-computer-macintosh-vintage home__box__icon"></span>
                 <div class="home__box__top">My name is Federico</div>
                 <h1 class="home__box__title">I'M A FRONT-END DEVELOPER</h1>
-                <p class="home__box__description">from Buenos Aires, Argentina. If you want to learn more about me, hit the button&nbsp;below</p>
+                <p class="home__box__description">from Buenos Aires, Argentina. If you want to learn more about me, click the button&nbsp;below</p>
                 <a class="button zindex" href="#about" id="about-link">SEE MORE</a>
                 <div class="home__box__top home__box__top--bb"><p>My name is Federico</p></div>    
             </div>
@@ -168,7 +168,7 @@
     <!-- End Technologies -->
 
     <!-- Start Portfolio -->
-    <main class="portfolio page-section" id="portfolio" data-matching-link="#portfolio-link">
+    <main class="portfolio page-section lazyload" id="portfolio" data-matching-link="#portfolio-link">
         <div class="container">
             <h2 class="title">My Portfolio</h2>
             <div class="portfolio__grid">
@@ -176,10 +176,9 @@
                 <div class="portfolio__item">
                     <a href="www.google.com">
                         <figure class="portfolio__item__figure">
-                            <img class="portfolio__item__img" src="assets/images/csseditor.png" alt="">
+                            <img class="portfolio__item__img portfolio__item__img--css" src="assets/images/csseditor.png" alt="">
                             <div class="portfolio__item__hover">
-                                <h2>Css Editor</h2>
-                                <p>Image filter editor for css</p>
+                                <h3 class="portfolio__item__hover__h3">Css Image Editor</h3>
                             </div>
                         </figure>    
                     </a>
@@ -189,8 +188,7 @@
                         <figure class="portfolio__item__figure">
                             <img class="portfolio__item__img" src="assets/images/perro.png" alt="">
                             <div class="portfolio__item__hover">
-                                <h2>Asd</h2>
-                                <p>sddsfsdf</p>
+                                <h3 class="portfolio__item__hover__h3">Custom WordPress theme</h3>
                             </div>
                         </figure>
                     </a>
@@ -199,7 +197,9 @@
                     <a href="www.google.com">
                         <figure class="portfolio__item__figure">
                             <img class="portfolio__item__img" src="assets/images/tahk.png" alt="">
-                            <div class="portfolio__item__hover"></div>
+                            <div class="portfolio__item__hover">
+                                <h3 class="portfolio__item__hover__h3">Custom WordPress theme</h3>
+                            </div>
                         </figure>
                     </a>
                 </div>
@@ -208,7 +208,9 @@
                     <a href="www.google.com">
                         <figure class="portfolio__item__figure">
                             <img class="portfolio__item__img" src="assets/images/pig.png" alt="">
-                            <div class="portfolio__item__hover"></div>
+                            <div class="portfolio__item__hover">
+                            <h3 class="portfolio__item__hover__h3">JavaScript game</h3>
+                            </div>
                         </figure>
                     </a>
                 </div>
@@ -218,8 +220,7 @@
                         <figure class="portfolio__item__figure">
                             <img class="portfolio__item__img" src="assets/images/travel.png" alt="">
                             <div class="portfolio__item__hover">
-                                <h2>Asd</h2>
-                                <p>sddsfsdf</p>
+                                <h3 class="portfolio__item__hover__h3">HTML5 template</h3>
                             </div>
                         </figure>
                     </a>
@@ -229,11 +230,12 @@
                     <a href="www.google.com">
                         <figure class="portfolio__item__figure">
                             <img class="portfolio__item__img" src="assets/images/zeit.png" alt="">
-                            <div class="portfolio__item__hover"></div>
+                            <div class="portfolio__item__hover">
+                                <h3 class="portfolio__item__hover__h3">HTML5 template</h3>
+                            </div>
                         </figure>
                     </a>
-                </div>
-            
+                </div>                
             </div>
         </div>      
     </main>
