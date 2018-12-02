@@ -38,12 +38,7 @@
             &:hover{
                 
                 .portfolio__item__hover{
-                    transform: scale(1);
-                }
-
-                .portfolio__item__img{
-                    filter: grayscale(0.3) opacity(.9);
-                    transform: scale(1.01);
+                    transform: translateY(0);
                 }
             }
         }
@@ -59,7 +54,7 @@
             transform: translateY(100%);
             /* transform: translateY(0); */
             color: #fff;
-            padding: 20px 0;
+            padding: 40px 0;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -67,7 +62,7 @@
 
             &__h3{
                 font-size: 1.8rem;
-                margin: 0;
+                margin: 0;                
             }
         } 
 
@@ -76,12 +71,15 @@
             object-fit: cover;            
             width: 100%;
             height: 100%;
-            filter: grayscale(1) opacity(1);
-            transform-origin: center center;
+            filter: grayscale(1);
             transition: all .6s ease-out;
 
             &--css{
                 object-position: left top;
+            }
+
+            &--css + div h3{
+                font-size: 2.7rem;
             }
         }
 

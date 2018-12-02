@@ -1,6 +1,6 @@
 <?php 
 $para = 'fpala1313@gmail.com, fedemartinpalacios@gmail.com';
-$asunto = 'Mensaje desde federicomartin.net';
+$asunto = 'Mensaje desde federicomartin.io';
 $mailheader = "From: ".$_POST['email']."\r\n";
 $mailheader .= "Reply-To: ".$_POST['email']."\r\n";
 $mailheader .= "Content-type: text/html; charset=utf-8\r\n";

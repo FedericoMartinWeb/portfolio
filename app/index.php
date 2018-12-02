@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Hi Welcome to my code, made with coffee, music and BEM methodology -->
+<head>    
     <!-- watch?v=oHg5SJYRHA0 -->
 
     <meta charset="UTF-8">
@@ -168,13 +167,13 @@
     <!-- End Technologies -->
 
     <!-- Start Portfolio -->
-    <main class="portfolio page-section lazyload" id="portfolio" data-matching-link="#portfolio-link">
+    <main class="portfolio page-section" id="portfolio" data-matching-link="#portfolio-link">
         <div class="container">
             <h2 class="title">My Portfolio</h2>
             <div class="portfolio__grid">
                
                 <div class="portfolio__item">
-                    <a href="www.google.com">
+                    <a href="www.google.com" target="_blank">
                         <figure class="portfolio__item__figure">
                             <img class="portfolio__item__img portfolio__item__img--css" src="assets/images/csseditor.png" alt="">
                             <div class="portfolio__item__hover">
@@ -184,7 +183,7 @@
                     </a>
                 </div>
                 <div class="portfolio__item">
-                    <a href="www.google.com">
+                    <a href="www.google.com" target="_blank">
                         <figure class="portfolio__item__figure">
                             <img class="portfolio__item__img" src="assets/images/perro.png" alt="">
                             <div class="portfolio__item__hover">
@@ -194,7 +193,7 @@
                     </a>
                 </div>
                 <div class="portfolio__item">
-                    <a href="www.google.com">
+                    <a href="www.google.com" target="_blank">
                         <figure class="portfolio__item__figure">
                             <img class="portfolio__item__img" src="assets/images/tahk.png" alt="">
                             <div class="portfolio__item__hover">
@@ -205,7 +204,7 @@
                 </div>
                 
                 <div class="portfolio__item">
-                    <a href="www.google.com">
+                    <a href="www.google.com" target="_blank">
                         <figure class="portfolio__item__figure">
                             <img class="portfolio__item__img" src="assets/images/pig.png" alt="">
                             <div class="portfolio__item__hover">
@@ -216,7 +215,7 @@
                 </div>
 
                 <div class="portfolio__item">
-                    <a href="www.google.com">
+                    <a href="www.google.com" target="_blank">
                         <figure class="portfolio__item__figure">
                             <img class="portfolio__item__img" src="assets/images/travel.png" alt="">
                             <div class="portfolio__item__hover">
@@ -227,7 +226,7 @@
                 </div>
 
                 <div class="portfolio__item">
-                    <a href="www.google.com">
+                    <a href="www.google.com" target="_blank">
                         <figure class="portfolio__item__figure">
                             <img class="portfolio__item__img" src="assets/images/zeit.png" alt="">
                             <div class="portfolio__item__hover">
