@@ -12,7 +12,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <!-- Styles css -->
+    <!-- build:css ./assets/styles/styles.css -->
     <link rel="stylesheet" href="../app/temp/styles/styles.css">
+    <!-- endbuild -->
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
@@ -283,9 +285,10 @@
 
     
     <!-- End Footer -->
+    <!-- build:js ./assets/scripts/app.js --> 
     <script src="temp/scripts/App.js"></script>   
     <script src="./temp/scripts/particles.js"></script>
     <script src="./temp/scripts/partiapp.js"></script>  
-   
+    <!-- endbuild -->
 </body>
 </html>

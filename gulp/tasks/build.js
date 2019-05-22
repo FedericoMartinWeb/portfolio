@@ -11,7 +11,7 @@ gulp.task('deleteDist', function(){
 });
 
 gulp.task('optimizeImg', ['deleteDist'], function(){
-   return gulp.src(['./app/assets/images/**/*', '!./app/assets/images/icons'])
+   return gulp.src('./app/assets/images/**/*')
     .pipe(imagemin({
        progressive: true,
        interlaced: true,
@@ -21,7 +21,7 @@ gulp.task('optimizeImg', ['deleteDist'], function(){
 });
 
 gulp.task('usemin', ['deleteDist'], function(){
-   return gulp.src('./app/index.php')
+   return gulp.src('./app/*.php')
     .pipe(usemin({
        css: [function(){return rev()}, function(){return cssnano()}],
        js: [function(){return rev()}, function(){return uglify()}]
