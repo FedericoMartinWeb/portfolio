@@ -8854,6 +8854,10 @@ input, textarea {
         text-align: center;
         margin: 0 auto;
         max-width: 400px;
+        background-color: rgba(255, 255, 255, .8);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 2px;
     }
 
 @media only screen and (min-width: 992px){
