@@ -8,7 +8,7 @@
     
     <!-- Meta tags -->
     <meta name="description" content="Fully responsive web and app development">
-    <meta property="og:image" content="og.png" />
+    <meta property="og:image" content="http://www.federicomartin.io/og.png?jhskjsh" />
     <meta property="og:title" content="Federico Martin" />
     <meta property="og:description" content="Fully responsive web and app development" />
     <meta property="og:url" content="https://www.federicomartin.io/" />
