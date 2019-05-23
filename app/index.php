@@ -7,7 +7,13 @@
     <title>Federico Martín | Front-end Developer</title>
     
     <!-- Meta tags -->
-    <meta name="description" content="Desarrollo profesional de sitios web, 100% adaptables a todos los dispositivos">
+    <meta name="description" content="Fully responsive web and app development">
+    <meta property="og:image" content="og.png" />
+    <meta property="og:title" content="Federico Martin" />
+    <meta property="og:description" content="Fully responsive web and app development" />
+    <meta property="og:url" content="https://www.federicomartin.io/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -91,7 +97,7 @@
         <div class="container">
             <h2 class="title">About me</h2>
             <div class="about__description">
-                <p>I have a passion for web develpment and love to create for web and mobile devices, 
+                <p>I have a passion for web development and love to create for web and mobile devices, 
                     I think that a front-end developer's role is to combine design and business logic to achieve an user-facing product. To do this successfully, a wide skill set is necessary to produce a quality user experience that leads to meeting business goals. 
                     I can code intuitive yet minimalistic interfaces or integrate your website into an user-friendly content management system. I stand on the principle that Simple is beautiful, while carefully including the finest details. 
                     I use the most sophisticated technologies available today for fully interactive and responsive websites and apps. If you have a project that you want to get started or think you need my help with something, then get in touch.
